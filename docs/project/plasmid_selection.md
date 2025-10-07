@@ -64,7 +64,7 @@ Notably, some bacterial colonies were already able to grow on Kan plates before 
 
 <p align="center">
   <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="Flowcyto">
-</p> <p align="center">
+</p>>
 <strong>Figure 3:</strong> <em>Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc.</em> <strong>A</strong> Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc. <strong>B</strong> Serial dilution droplet plating of the strain carrying
