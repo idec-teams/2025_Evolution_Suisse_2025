@@ -28,7 +28,22 @@ To assess the baseline recombination efficiency between the wild-type donor and 
 The screening plasmid expresses mGreenLantern under the control of a constitutively active promoter; after inversion the two fluorescent reporter gene cassettes are flipped and mScarlet3 is placed downstream the promoter and expressed. The recombination efficiency for each target site is measured by flow cytometry and calculated as the percentage of mScarlet3-positive cells. Inversion is induced by addition of aTc which triggers bRNA A expression. 
 
 After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cells, whereas, the non-targeted target-sequence showed < 1 % positive cells (Figure 3B), confirming target-specific inversion events. Similarly, we observed <1 % positive cells in the uninduced control in all conditions, except target 2 and 3, where we observed 2% positive cells at the 15 h time point. This is indicative of effective promoter repression in the absence of the inducer. Furthermore, we were only able to observe a change in fluorescent protein expression after 15 hours of induction, as there were <1 % mScarlet positive cells 2 hours after induction across all conditions. Lastly, flipping events were confirmed by Oxford Nanopore sequencing. Target 1 showed the highest activity and was selected as the primary target sequence from this point forward.
-
+<figure markdown>
+![A1ATD](https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Flowcyto_data.png)
+<figcaption> Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+type donor and the targets identified within the SERPINA1 locus. A Schematic representation of the plasmids
+used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence
+and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
+are flanked by donor and target sequences to allow for IS621 + bRNA mediated flipping. pES055.2 contains
+IS621 followed by mTagBFP2 to facilitate the gating of cells bearing both plasmids. Induction with aTc leads
+to expression of the bRNA and therefore recombination. B Percentage of mScarlet3-positive cells over the
+number of cells expressing both IS621 recombinase and the fluorescent reporter plasmid. Marionette-Clo cells
+carrying plasmids pES049.2 and pES055.2 were either uninduced (blue) or induced (green) with 200 nM aTc
+for the indicated times before the analysis. Bars indicate mean values of three replicates, with individual data
+points shown. Each panel represents a different target sequence (1, 2 or 3). The non-targeting bRNA condition
+corresponds to cells carrying pES055.2 and pES049.2 bearing bRNA 1 and target sequence 2, serving as a
+negative control. </figcaption>
+</figure>
 
 ## Validation of the selection logic 
 To identify optimal induction and selection conditions for detecting IS621-mediated inversions, we screened
