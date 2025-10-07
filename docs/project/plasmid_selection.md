@@ -31,13 +31,13 @@ After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cel
 
 
 ![Flowcyto](https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Flowcyto_data.png)
-<figcaption> **Figure 2:** _Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
-type donor and the targets identified within the SERPINA1 locus._ **A** Schematic representation of the plasmids
+<figcaption> <strong>Figure 2:</strong> <em>Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+type donor and the targets identified within the SERPINA1 locus.</em> <strong>A</strong> Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
 and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
 are flanked by donor and target sequences to allow for IS621 + bRNA mediated flipping. pES055.2 contains
 IS621 followed by mTagBFP2 to facilitate the gating of cells bearing both plasmids. Induction with aTc leads
-to expression of the bRNA and therefore recombination. **B** Percentage of mScarlet3-positive cells over the
+to expression of the bRNA and therefore recombination. <strong>B</strong> Percentage of mScarlet3-positive cells over the
 number of cells expressing both IS621 recombinase and the fluorescent reporter plasmid. Marionette-Clo cells
 carrying plasmids pES049.2 and pES055.2 were either uninduced (blue) or induced (green) with 200 nM aTc
 for the indicated times before the analysis. Bars indicate mean values of three replicates, with individual data
