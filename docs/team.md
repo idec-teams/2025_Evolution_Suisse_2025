@@ -52,7 +52,7 @@ Hello
     <span> Sofia Filippini <br>
       Master's student, ETH Zürich
       <br>
-       Flippin them fluorescent cassettes </span>
+       Flippin them fluorescent cassettes. If excitment for a topic could win you the Nobel Prize, she would have the one for GFP. </span>
   </div>
 
 
