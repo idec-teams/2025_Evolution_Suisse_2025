@@ -14,6 +14,10 @@ bRNA A or OHC14 for bRNA B. Presence of IS621 + bRNA promotes recombination. Sel
 by regrowing cells in media containing Kan or Gm. Cells that have successfully recombined express the correct
 AB resistance and survive, cells that did not recombine die. This process promotes the survival of bacteria
 carrying more active IS621 variants.
+
+## Target Selection
+
+    
 ## Markdown footnotes for citations
 
 Reference: [squidfunk.github.io/mkdocs-material/reference/data-tables/](https://squidfunk.github.io/mkdocs-material/reference/footnotes/)
