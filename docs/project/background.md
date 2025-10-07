@@ -32,7 +32,7 @@ So far two bridge recombinases, IS621 and ISCro4, have been characterized. They 
 
 <figure markdown>
 ![ISCro4](https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/ISCro4.png)
-<figcaption> Figure 3: ISCro4 Bridge Recombinase
+<figcaption> Figure 3: ISCro4 Bridge Recombinase (Source: Own Figure)
 </figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Clinically, A1ATD often goes undiagnosed because its symptoms overlap with other
 
 <figure markdown>
 ![A1ATD](https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/A1ATD.jpg)
-<figcaption> Figure 3: A1ATD
+<figcaption> Figure 1: A1ATD (Source: https://www.genebase.com/products/alpha-1-antitrypsin-deficiency/)
 </figcaption>
 </figure>
 
@@ -65,15 +65,11 @@ As a proof of principle, we focus on Alpha-1 Antitrypsin Deficiency (A1ATD). If 
 
 <figure markdown>
 ![Abstract](https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Abstract.jpeg)
-<figcaption> Figure 3: Directed Evolution Pipline: Combining Deep Mutational Learning with Continous Evolution Systems
+<figcaption> Figure 3: Directed Evolution Pipline: Combining Deep Mutational Learning with Continous Evolution Systems (Source: Own Figure)
 </figcaption>
 </figure>
 
 ## References 
-
-### Figures
-
-### Citations
 [^crispr_1]: Li T, Yang Y, Qi H, Cui W, Zhang L, Fu X, He X, Liu M, Li P, Yu T. CRISPR/Cas9 therapeutics: progress and prospects. Signal Transduction and Targeted Therapy. 2023;8:36. doi:10.1038/s41392-023-01309-7
 [^ngs_1]: Goodwin S, McPherson JD, McCombie WR. Coming of age: ten years of next-generation sequencing technologies. Nature Reviews Genetics. 2016;17:333–351. doi:10.1038/nrg.2016.49 
 [^crispr_2]: Pacesa M, Pelea O, Jinek M. Past, present, and future of CRISPR genome editing technologies. Cell. 2024;187(5):1076–1100. doi:10.1016/j.cell.2024.01.012
