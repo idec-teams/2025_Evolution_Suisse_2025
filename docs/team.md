@@ -102,7 +102,7 @@ hide:
     <span>  Philip Nitsch <br>
       Team Advisor, ETH Zürich 
       <br>
-       Is in the team to find a sellable kidney </span>
+       Is in the team to find a sellable kidney/ Can sacrifice your kindey for the team budged abd his own fridge space for the project </span>
   </div>
 
 
