@@ -50,7 +50,7 @@ negative control.
 ## Validation of the selection logic 
 To identify optimal induction and selection conditions for detecting IS621-mediated inversions, we screened
 nearly 100 conditions, with the most promising ones discussed below. We co-transformed the selection plasmid (pES013.2A) with a plasmid constitutively expressing IS621 (pES055.2). In this simplified model system, inversion is induced by the addition of aTc leading to the expression of the bRNA A. We first showed that the bacterial population maintains the selection plasmid in the absence of antibiotic selection by Gm or Kan in liquid culture over the course of 15 h (Figure 4 A). Based on this, we devised the induction scheme showed in Figure 4 C.
-###### addd in figure 4C caption what the blue arrows mean!
+
 
 The bacterial population was induced in late exponential phase (OD<sub>600</sub>O=0.6). We tested two different conditions: 
 
@@ -70,15 +70,14 @@ aTc.</em> <strong>A</strong> Phenotypic selection for successful inversion by IS
 aTc. <strong>B</strong> Serial dilution droplet plating of the strain carrying
 pES055.2 and pES013.2A (see Figure 2) after 15 h growth in absence of Gm on Gm/Spec plates. <strong>C</strong> Schematic
 representation of the induction and growth conditions of bacteria containing the selection plasmid and constitu-
-tively expressing IS621. The cells were induced with aTC at an OD600 of 0.6 either in the absence or presence of
-Kan. The cultures were diluted in fresh media after 15 h and grown for an additional 15 h (methods). <strong>D</strong> Bacte-
-rial growth on spectinomycin/Kan agar plates of cells after 0 h, 15 h and 30 hours after induction and antibiotic
+tively expressing IS621. The cells were induced with aTc at an OD<sub>600</sub>O=0.6=0.6 either in the absence or presence of
+Kan. The cultures #### all of them? ### were diluted in fresh media after 15 h and grown for an additional 15 h. <strong>D</strong> Bacte-
+rial growth on Kan/Spec plates after 0 h, 15 h and 30 hours after induction and antibiotic
 selection. (i) Serial dilution of the bacterial culture before induction, (ii) induced samples with their respective
 negative controls, sample and control indicated with coloured asterics (No selection with Kan in liquid cultures
 (cyan), with Kan in liquid culture (red)). Cultures grown with Kan were terminated after 15 h, (iii) induced
 samples grown in abscence of Kan for 30 h plated as droplets in duplicate. Black markings on plates indicate
-the position of bacterial droplet when plated. All plates were imaged with the coomassie setting on a gel-doc
-XR.
+the position of bacterial droplet when plated.
 </p>
 
 Following this assay monoclonal cultures were grown and their DNA sequenced. While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some of the colonies grown in the presence of Kan.
@@ -86,12 +85,12 @@ Two escape mutations were identified: large deletions as well as insertions of g
 Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette. 
 The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a promoter which leads to the expression of KanR and cell survival.
 
-### figure escape mutations 
+##### figure escape mutations 
 
 These escape mutations represent a limit for the applicability of our system, as they allow cells to grow without the need for IS621-catalysed recombination.
 To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in figure xx should greatly reduce the number of escape mutants. 
-### quick explanation of CcdA system by Elia (?) or cite smth
-### figure CcdA
+##### quick explanation of CcdA system by Elia (?) or cite smth
+##### figure CcdA
 
 As a next step we aim to demonstrate inversion in the reverse direction (Kan --> Gm) following induction of
 the bRNA. Successful implementation of this step would enable continuous directed evolution. This could involve growing the bacteria in a continuous culture where the media is exchanged slowly overtime to contain different concentrations of the inducers and antibiotics used for selection. Alternately, non-continuous cultures can be used where the bacteria are subjected to iterative cycles of induction and selection.
