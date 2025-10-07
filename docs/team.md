@@ -34,7 +34,7 @@ hide:
     <span> Daria Belous <br>
       Master's student, ETH Zürich
       <br>
-       Can pour 90 plates per minute, but forget how to do a miniprep </span>
+       Can pour 90 plates per minute, but forgets how to do a miniprep </span>
   </div>
 
 
@@ -51,7 +51,7 @@ hide:
     <span> Etienne Mathier <br>
       Master's student, ETH Zürich
       <br>
-       Can change strains and control liquid nitrogen (but can't win Saskia in dance battle) </span>
+       Can make strains and control liquid nitrogen (but can't win against Saskia in dance battle) </span>
   </div>
 
   
@@ -84,7 +84,7 @@ hide:
     <span> David Jewanski <br>
       Master's student, ETH Zürich
       <br>
-       Does't know where moon is </span>
+       Doesn't know where moon is </span>
   </div>
 
   <div class="image-item">
@@ -102,7 +102,7 @@ hide:
     <span>  Philip Nitsch <br>
       Team Advisor, ETH Zürich 
       <br>
-       Is in the team to find a sellable kidney/ Can sacrifice your kindey for the team budged abd his own fridge space for the project </span>
+       Is in the team to find a sellable kidney/ Can sacrifice your kindey for the team budget and his own fridge space for the project </span>
   </div>
 
 
