@@ -5,7 +5,7 @@ hide:
 
 # Our Team
 
-Hello 
+
 
 
 <div class="image-grid">
@@ -14,7 +14,7 @@ Hello
     <span> Annabelle Winzer <br>
       Master's student, ETH Zürich
       <br>
-       Some text </span>
+       The lab-manager, assay developer, does not believe in being sick for over a week </span>
   </div>
 
 
@@ -24,7 +24,7 @@ Hello
     <span> Elia Weber <br>
       Master's student, ETH Zürich
       <br>
-       Knows all the fish and golden gate overhangs by heart </span>
+       Knows all the fishes and golden gate overhangs by heart </span>
   </div>
 
 
@@ -43,7 +43,7 @@ Hello
     <span> Dave Binder <br>
       Master's student, ETH Zürich
       <br>
-        </span>
+       Does not recognise the art of labeling </span>
   </div>
 
   <div class="image-item">
@@ -54,13 +54,13 @@ Hello
        Can change strains and control liquid nitrogen (but can't win Saskia in dance battle) </span>
   </div>
 
+  
   <div class="image-item">
     <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/nitroetienne.jpeg" alt="Sofia" style="height:300px;width:300px">
     <span> Sofia Filippini <br>
       Master's student, ETH Zürich
       <br>
-       Flippin them fluorescent cassettes () </span>
-       Flippin them fluorescent cassettes. If excitment for a topic could win you the Nobel Prize, she would have the one for GFP. ciao ciao daria</span>
+       Flippin them fluorescent cassettes. If excitment for a topic could win you the Nobel Prize, she would have the one for GFP.</span>
   </div>
 
 
@@ -92,7 +92,7 @@ Hello
     <span> Lorenz Widmer <br>
       Team Advisor, ETH Zürich und Uni Basel
       <br>
-       The all knowing biology powermind </span>
+       The all-knowing biology powermind </span>
   </div>
 
 
