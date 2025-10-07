@@ -62,11 +62,6 @@ For each condition, controls in which bRNA expression was not induced were inclu
 Bacteria were grown for 15 hours after induction and then, those grown in absence of Kan were diluted into fresh media and grown for an additional 15 hours. This allowed for a longer induction period while minimizing cell death. 
 Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 4 D (i)).
 
-Following this assay monoclonal cultures were grown and their DNA sequenced. While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some of the colonies grown in the presence of Kan.
-Two escape mutations were identified: large deletions as well as insertions of genomic host DNA (5). 
-Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette. 
-The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a promoter which leads to the expression of KanR and cell survival.
-
 <p align="center">
   <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="Flowcyto">
 </p> <p align="center">
@@ -86,6 +81,20 @@ the position of bacterial droplet when plated. All plates were imaged with the c
 XR.
 </p>
 
+Following this assay monoclonal cultures were grown and their DNA sequenced. While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some of the colonies grown in the presence of Kan.
+Two escape mutations were identified: large deletions as well as insertions of genomic host DNA (5). 
+Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette. 
+The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a promoter which leads to the expression of KanR and cell survival.
+
+### figure escape mutations 
+
+These escape mutations represent a limit for the applicability of our system, as they allow cells to grow without the need for IS621-catalysed recombination.
+To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in figure xx should greatly reduce the number of escape mutants. 
+### quick explanation of CcdA system by Elia (?) or cite smth
+### figure CcdA
+
+As a next step we aim to demonstrate inversion in the reverse direction (Kan --> Gm) following induction of
+the bRNA. Successful implementation of this step would enable continuous directed evolution. This could involve growing the bacteria in a continuous culture where the media is exchanged slowly overtime to contain different concentrations of the inducers and antibiotics used for selection. Alternately, non-continuous cultures can be used where the bacteria are subjected to iterative cycles of induction and selection.
 
 
     
