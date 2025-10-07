@@ -61,3 +61,9 @@ In our 2025 IDEC project, we aim to push bridge recombinases beyond their natura
 Our goal is to map and understand the fitness landscape of bridge recombinases — essentially, how different mutations affect their activity, and evolve versions that are better at inserting large DNA fragments precisely and efficiently.
 
 As a proof of principle, we focus on Alpha-1 Antitrypsin Deficiency (A1ATD). If we can use an evolved bridge recombinase to replace the faulty SERPINA1 gene with a healthy one, it would demonstrate a powerful new way to correct genetic diseases at their root — and potentially make large-scale, mutation-independent cures a reality.
+
+<figure markdown>
+![Abstract](https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Abstract.jpg)
+<figcaption> Figure 3: Directed Evolution Pipline: Combining Deep Mutational Learning with Continous Evolution Systems
+</figcaption>
+</figure>
