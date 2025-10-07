@@ -20,49 +20,49 @@ Hello
 
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="Elia" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Elia.jpg" alt="Elia" style="height:300px;width:300px">
     <span> Elia Weber <br>
       Master's student, ETH Zürich
       <br>
-       Some text </span>
+       Knows all the fish and golden gate overhangs by heart </span>
   </div>
 
 
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="Daria" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Daria.jpeg" alt="Daria" style="height:300px;width:300px">
     <span> Daria Belous <br>
       Master's student, ETH Zürich
       <br>
-       Some text </span>
+       Can pour 90 plates per minute, but forget how to do a miniprep </span>
   </div>
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Dave.jpeg" alt="Dave" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/daria.jpeg" alt="Dave" style="height:300px;width:300px">
     <span> Dave Binder <br>
       Master's student, ETH Zürich
       <br>
-       Some text </span>
+        </span>
   </div>
 
 
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="Sofia" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/nitroetienne.jpeg" alt="Sofia" style="height:300px;width:300px">
     <span> Sofia Filippini <br>
       Master's student, ETH Zürich
       <br>
-       Some text </span>
+       Flippin them fluorescent cassettes </span>
   </div>
 
 
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="Etienne" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/nitroetienne.jpeg" alt="Etienne" style="height:300px;width:300px">
     <span> Etienne Mathier <br>
       Master's student, ETH Zürich
       <br>
-       Some text </span>
+       Can change strains and control liquid nitrogen </span>
   </div>
 
   <div class="image-item">
