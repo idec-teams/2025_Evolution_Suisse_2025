@@ -68,30 +68,23 @@ Upon deletion KanR gene was placed under the control of the pTet promoter, which
 The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a promoter which leads to the expression of KanR and cell survival.
 
 <p align="center">
-  <img src="" alt="Flowcyto">
+  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="Flowcyto">
 </p> <p align="center">
-<strong>Figure 2:</strong> <em>Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
-type donor and the targets identified within the SERPINA1 locus.</em> <strong>A</strong> Schematic representation of the plasmids
-used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
-and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
-are flanked by donor and target sequences to allow for IS621 + bRNA mediated flipping. pES055.2 contains
-IS621 followed by mTagBFP2 to facilitate the gating of cells bearing both plasmids. Induction with aTc leads
-to expression of the bRNA and therefore recombination. <strong>B</strong> Percentage of mScarlet3-positive cells over the
-number of cells expressing both IS621 recombinase and the fluorescent reporter plasmid. Marionette-Clo cells
-carrying plasmids pES049.2 and pES055.2 were either uninduced (blue) or induced (green) with 200 nM aTc
-for the indicated times before the analysis. Bars indicate mean values of three replicates, with individual data
-points shown. Each panel represents a different target sequence (1, 2 or 3). The non-targeting bRNA condition
-corresponds to cells carrying pES055.2 and pES049.2 bearing bRNA 1 and target sequence 2, serving as a
-negative control. 
+<strong>Figure 3:</strong> <em>Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
+aTc.</em> <strong>A</strong> Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
+aTc. <strong>B</strong> Serial dilution droplet plating of the strain carrying
+pES055.2 and pES013.2A (see Figure 2) after 15 h growth in absence of Gm on Gm/Spec plates. <strong>C</strong> Schematic
+representation of the induction and growth conditions of bacteria containing the selection plasmid and constitu-
+tively expressing IS621. The cells were induced with aTC at an OD600 of 0.6 either in the absence or presence of
+Kan. The cultures were diluted in fresh media after 15 h and grown for an additional 15 h (methods). <strong>D</strong> Bacte-
+rial growth on spectinomycin/Kan agar plates of cells after 0 h, 15 h and 30 hours after induction and antibiotic
+selection. (i) Serial dilution of the bacterial culture before induction, (ii) induced samples with their respective
+negative controls, sample and control indicated with coloured asterics (No selection with Kan in liquid cultures
+(cyan), with Kan in liquid culture (red)). Cultures grown with Kan were terminated after 15 h, (iii) induced
+samples grown in abscence of Kan for 30 h plated as droplets in duplicate. Black markings on plates indicate
+the position of bacterial droplet when plated. All plates were imaged with the coomassie setting on a gel-doc
+XR.
 </p>
-Figure 5: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
-control of only one promoter. Gene deletion (A), off-target recombination or insertion of an exogenous gene
-sequence (B) may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
-formation of escape mutants. Escape mutants express GmR and KanR simultaneously and thus no longer need
-to flip the cassette for survival during selection. During our selection experiments we found two escape mutants.
-One showed a large deletion. Both bRNAs where absent from the plasmid and the KanR gene was under the
-control of the PTet promoter. The the other escape mutants carried a fragment of IS150. The IS150 fragment
-contains an additional promoter and supports KanR expression.
 
 
 
