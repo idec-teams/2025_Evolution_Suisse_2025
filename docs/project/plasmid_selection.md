@@ -34,23 +34,27 @@ After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cel
 To identify optimal induction and selection conditions for detecting IS621-mediated inversions, we screened
 nearly 100 conditions, with the most promising ones discussed below. We co-transformed the selection plasmid (pES013.2A) with a plasmid constitutively expressing IS621 (pES055.2). In this simplified model system, inversion is induced by the addition of aTc leading to the expression of the bRNA A. We first showed that the bacterial population maintains the selection plasmid in the absence of antibiotic selection by Gm or Kan in liquid culture over the course of 15 h (Figure 4 A). Based on this, we devised the induction scheme showed in Figure 4 C.
 ###### addd in figure 4C caption what the blue arrows mean!
+
 The bacterial population was induced in late exponential phase (OD<sub>600</sub>O=0.6). We tested two different conditions: 
 
     1. No antibiotic after induction
     
     2. Kanamycin added after aTc induction to select for succesful inversions of the antibiotic cassette. 
     
-For each condition, controls where bRNA expression was not induced were included. 
-   
+For each condition, controls in which bRNA expression was not induced were included. 
+Bacteria were grown for 15 hours after induction and then, those grown in absence of Kan were diluted into fresh media and grown for an additional 15 hours. This allowed for a longer induction period while minimizing cell death. 
+Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 4 D (i)).
 
+Following this assay monoclonal cultures were grown and their DNA sequenced. While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some of the colonies grown in the presence of Kan.
+
+Two escape mutations were identified: large deletions as well as insertions of genomic host DNA (5). 
+Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette. 
+
+The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a promoter which leads to the expression of KanR and cell survival.
 
 
 #### Old text from report
-  After 15 h the
-bacteria which were grown in the absence of Kan were diluted in fresh media and grown for an additional 15
-hours, allowing for a longer induction period while reducing cell death. Before induction (t=0) we observed
-some bacterial growth on Kan plates, indicating some background resistance of the native bacterial population
-(Figure 4 D (i)). After 15 h, the bacterial cultures induced with aTc showed more growth than their uninduced
+ After 15 h, the bacterial cultures induced with aTc showed more growth than their uninduced
 control. However, we observed significant growth in the uninduced conditions, particularly in the culture grown
 in the presence of Kan. Interestingly, after 30h, uninduced cultures showed no growth on Kan plates, whereas
 induced cultures grew.(4 D). Following this assay monoclonal cultures were grown and their DNA sequenced.

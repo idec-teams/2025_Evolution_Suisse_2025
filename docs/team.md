@@ -43,7 +43,7 @@ hide:
     <span> Dave Binder <br>
       Master's student, ETH Zürich
       <br>
-       Does not recognise the art of labeling </span>
+       Can be found in the exclusively lab before 7 or after midnight. Does not recognise the art of labeling </span>
   </div>
 
   <div class="image-item">
@@ -56,7 +56,7 @@ hide:
 
   
   <div class="image-item">
-    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/nitroetienne.jpeg" alt="Sofia" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/placeholder.jfif" alt="Sofia" style="height:300px;width:300px">
     <span> Sofia Filippini <br>
       Master's student, ETH Zürich
       <br>
@@ -70,9 +70,9 @@ hide:
   
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="Saskia" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/placeholder.jfif" alt="Saskia" style="height:300px;width:300px">
     <span> Saskia Gerecke <br>
-      Master's student, ETH Zürich
+      Master's student, UZH
       <br>
        Can mindcontrol phages and dance battle Etienne </span>
   </div>
@@ -80,15 +80,15 @@ hide:
 
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="David" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/placeholder.jfif" alt="David" style="height:300px;width:300px">
     <span> David Jewanski <br>
       Master's student, ETH Zürich
       <br>
-       Some text </span>
+       Does't know where moon is </span>
   </div>
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Annabelle_winzer.jpg" alt="Lorenz" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/lorenz.jpg" alt="Lorenz" style="height:300px;width:300px">
     <span> Lorenz Widmer <br>
       Team Advisor, ETH Zürich und Uni Basel
       <br>
@@ -98,17 +98,17 @@ hide:
 
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="Philip" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Phillip.jpg" alt="Philip" style="height:300px;width:300px">
     <span>  Philip Nitsch <br>
       Team Advisor, ETH Zürich 
       <br>
-       Is in the team to find a sellable kidney </span>
+       Is in the team to find a sellable kidney/ Can sacrifice your kindey for the team budged abd his own fridge space for the project </span>
   </div>
 
 
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="Michael Nash" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/nash.jpeg" alt="Michael Nash" style="height:300px;width:300px">
     <span> Michael Nash <br>
       Professor, ETH Zürich und Uni Basel
       <br>
@@ -121,3 +121,6 @@ hide:
 
   
 # Acknowledgements
+
+
+some text here 

@@ -81,3 +81,4 @@ By coupling genotype and phenotype in a pooled, sequencing-based assay, this fra
 ## References
 [^DE_review]: L. Sellés Vidal, M. Isalan, J. T. Heap, and R. Ledesma-Amaro, “A primer to directed evolution: Current methodologies and future directions,” RSC Chemical Biology, vol. 4, no. 4, pp. 271–291, 2023. doi: 10.1039/D2CB00231K.
 [^Perry]: N. T. Perry, L. J. Bartie, D. Katrekar, et al., “Megabase-scale human genome rearrangement with programmable bridge recombinases,” Science, eadz0276, Sep. 2025, Online ahead of print, 2025 Sep 25. doi: 10.1126/science.adz0276.
+[^dml_1]: Frei L, Gao B, Han J, Taft JM, Irvine EB, Weber CR, Kumar RK, Eisinger BN, Ignatov A, Yang Z, Reddy ST. Deep mutational learning for the selection of therapeutic antibodies resistant to the evolution of Omicron variants of SARS-CoV-2. Nature Biomedical Engineering. 2025;9:552–565. doi:10.1038/s41551-025-01326-5
