@@ -54,7 +54,7 @@ In this context, bridge recombinase–based therapy could offer a universal solu
 
 ## Our IDEC 2025 Project: Evolving Bridge Recombinases
 
-In our 2025 IDEC project, we aim to push bridge recombinases beyond their natural limits. Our team is developing a directed evolution strategy to improve both their efficiency and specificity. Building on the known IS621 and ISCro4 enzymes, we are combining deep mutational learning (DML) with two continous evolution systems:
+In our 2025 IDEC project, we aim to push bridge recombinases beyond their natural limits. Our team is developing a directed evolution strategy to improve both their efficiency and specificity. Building on the known IS621 and ISCro4 enzymes, we are combining deep mutational learning (DML)[^dml_1] with two continous evolution systems:
 	•	E. coli Orthogonal Replication (EcORep) [^evo_1]
 	•	Phage-Assisted Continuous Evolution (PACE) [^pace_1]
 
@@ -81,3 +81,4 @@ As a proof of principle, we focus on Alpha-1 Antitrypsin Deficiency (A1ATD). If 
 [^aatd_2]: Strnad P, McElvaney NG, Lomas DA. Alpha1-Antitrypsin Deficiency. New England Journal of Medicine. 2020;382:1443–1455. doi:10.1056/NEJMra1910234
 [^pace_1]: Miller SM, Wang T, Liu DR. Phage-assisted continuous and non-continuous evolution. Nature Protocols. 2020;15:4101–4127. doi:10.1038/s41596-020-00424-4
 [^evo_1]: Tian R, Rehm FBH, Czernecki D, Gu Y, Zürcher JF, Liu KC, Chin JW. Establishing a synthetic orthogonal replication system enables accelerated evolution in E. coli. Science. 2024;383(6681):421–426. doi:10.1126/science.adk1281
+[^dml_1]: Frei L, Gao B, Han J, Taft JM, Irvine EB, Weber CR, Kumar RK, Eisinger BN, Ignatov A, Yang Z, Reddy ST. Deep mutational learning for the selection of therapeutic antibodies resistant to the evolution of Omicron variants of SARS-CoV-2. Nature Biomedical Engineering. 2025;9:552–565. doi:10.1038/s41551-025-01326-5
