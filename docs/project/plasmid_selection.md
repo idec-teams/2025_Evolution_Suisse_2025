@@ -54,34 +54,36 @@ nearly 100 conditions, with the most promising ones discussed below. We co-trans
 
 The bacterial population was induced in late exponential phase (OD<sub>600</sub>O=0.6). We tested two different conditions: 
 
-    1. No antibiotic after induction
+ 1. No antibiotic after induction
     
-    2. Kanamycin added after aTc induction to select for succesful inversions of the antibiotic cassette. 
+ 2. Kanamycin added after aTc induction to select for succesful inversions of the antibiotic cassette. 
     
 For each condition, controls in which bRNA expression was not induced were included. 
 Bacteria were grown for 15 hours after induction and then, those grown in absence of Kan were diluted into fresh media and grown for an additional 15 hours. This allowed for a longer induction period while minimizing cell death. 
 Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 4 D (i)).
 
 Following this assay monoclonal cultures were grown and their DNA sequenced. While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some of the colonies grown in the presence of Kan.
-
 Two escape mutations were identified: large deletions as well as insertions of genomic host DNA (5). 
 Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette. 
-
 The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a promoter which leads to the expression of KanR and cell survival.
 
-
-#### Old text from report
- After 15 h, the bacterial cultures induced with aTc showed more growth than their uninduced
-control. However, we observed significant growth in the uninduced conditions, particularly in the culture grown
-in the presence of Kan. Interestingly, after 30h, uninduced cultures showed no growth on Kan plates, whereas
-induced cultures grew.(4 D). Following this assay monoclonal cultures were grown and their DNA sequenced.
-While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some
-of the colonies grown in the presence of Kan.
-Two escape mutations were identified: large deletions as well as insertions of genomic host DNA (5). The
-deletion placed transcription of KanR under the control of the pTet promoter, which otherwise controls bRNA
-A expression,enabling cell survival without inversion of the cassette. The second escape mutation we observed
-was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a
-promoter which leads to the expression of KanR and cell survival.
+<p align="center">
+  <img src="" alt="Flowcyto">
+</p> <p align="center">
+<strong>Figure 2:</strong> <em>Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+type donor and the targets identified within the SERPINA1 locus.</em> <strong>A</strong> Schematic representation of the plasmids
+used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
+and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
+are flanked by donor and target sequences to allow for IS621 + bRNA mediated flipping. pES055.2 contains
+IS621 followed by mTagBFP2 to facilitate the gating of cells bearing both plasmids. Induction with aTc leads
+to expression of the bRNA and therefore recombination. <strong>B</strong> Percentage of mScarlet3-positive cells over the
+number of cells expressing both IS621 recombinase and the fluorescent reporter plasmid. Marionette-Clo cells
+carrying plasmids pES049.2 and pES055.2 were either uninduced (blue) or induced (green) with 200 nM aTc
+for the indicated times before the analysis. Bars indicate mean values of three replicates, with individual data
+points shown. Each panel represents a different target sequence (1, 2 or 3). The non-targeting bRNA condition
+corresponds to cells carrying pES055.2 and pES049.2 bearing bRNA 1 and target sequence 2, serving as a
+negative control. 
+</p>
 Figure 5: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
 control of only one promoter. Gene deletion (A), off-target recombination or insertion of an exogenous gene
 sequence (B) may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
