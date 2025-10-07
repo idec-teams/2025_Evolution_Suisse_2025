@@ -70,7 +70,7 @@ hide:
   
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/placeholder.jfif" alt="Saskia" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/placeholder.jfif" alt="Saskia" style="height:300px;width:300px">
     <span> Saskia Gerecke <br>
       Master's student, UZH
       <br>
@@ -98,7 +98,7 @@ hide:
 
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="Philip" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Phillip.jpg" alt="Philip" style="height:300px;width:300px">
     <span>  Philip Nitsch <br>
       Team Advisor, ETH Zürich 
       <br>
@@ -108,7 +108,7 @@ hide:
 
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Elia.jpg" alt="Michael Nash" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/nash.jpeg" alt="Michael Nash" style="height:300px;width:300px">
     <span> Michael Nash <br>
       Professor, ETH Zürich und Uni Basel
       <br>
