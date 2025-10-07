@@ -29,6 +29,43 @@ The screening plasmid expresses mGreenLantern under the control of a constitutiv
 
 After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cells, whereas, the non-targeted target-sequence showed < 1 % positive cells (Figure 3B), confirming target-specific inversion events. Similarly, we observed <1 % positive cells in the uninduced control in all conditions, except target 2 and 3, where we observed 2% positive cells at the 15 h time point. This is indicative of effective promoter repression in the absence of the inducer. Furthermore, we were only able to observe a change in fluorescent protein expression after 15 hours of induction, as there were <1 % mScarlet positive cells 2 hours after induction across all conditions. Lastly, flipping events were confirmed by Oxford Nanopore sequencing. Target 1 showed the highest activity and was selected as the primary target sequence from this point forward.
 
+
+## Validation of the selection logic 
+To identify optimal induction and selection conditions for detecting IS621-mediated inversions, we screened
+nearly 100 conditions, with the most promising ones discussed below. We co-transformed the selection plasmid (pES013.2A) with a plasmid constitutively expressing IS621 (pES055.2). In this simplified model system, inversion is induced by the addition of aTc leading to the expression of the bRNA A. We first showed that the bacterial population maintains the selection plasmid in the absence of antibiotic selection by Gm or Kan in liquid culture over the course of 15 h (Figure 4 A). Based on this, we devised the induction scheme showed in Figure 4 C.
+###### addd in figure 4C caption what the blue arrows mean!
+
+
+#### Old text from report
+
+The bacterial population was induced in late exponential phase (OD600 = 0.6).We tested two conditions: One
+culture was grown without AB ,and another was grown with Kan to select for successful inversion of the AB
+cassette. Controls where bRNA expression was not induced were included for each condition. After 15 h the
+bacteria which were grown in the absence of Kan were diluted in fresh media and grown for an additional 15
+hours, allowing for a longer induction period while reducing cell death. Before induction (t=0) we observed
+some bacterial growth on Kan plates, indicating some background resistance of the native bacterial population
+(Figure 4 D (i)). After 15 h, the bacterial cultures induced with aTc showed more growth than their uninduced
+control. However, we observed significant growth in the uninduced conditions, particularly in the culture grown
+in the presence of Kan. Interestingly, after 30h, uninduced cultures showed no growth on Kan plates, whereas
+induced cultures grew.(4 D). Following this assay monoclonal cultures were grown and their DNA sequenced.
+While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some
+of the colonies grown in the presence of Kan.
+Two escape mutations were identified: large deletions as well as insertions of genomic host DNA (5). The
+deletion placed transcription of KanR under the control of the pTet promoter, which otherwise controls bRNA
+A expression,enabling cell survival without inversion of the cassette. The second escape mutation we observed
+was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a
+promoter which leads to the expression of KanR and cell survival.
+Figure 5: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
+control of only one promoter. Gene deletion (A), off-target recombination or insertion of an exogenous gene
+sequence (B) may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
+formation of escape mutants. Escape mutants express GmR and KanR simultaneously and thus no longer need
+to flip the cassette for survival during selection. During our selection experiments we found two escape mutants.
+One showed a large deletion. Both bRNAs where absent from the plasmid and the KanR gene was under the
+control of the PTet promoter. The the other escape mutants carried a fragment of IS150. The IS150 fragment
+contains an additional promoter and supports KanR expression.
+
+
+
     
 ## Markdown footnotes for citations
 
