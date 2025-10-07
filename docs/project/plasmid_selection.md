@@ -15,7 +15,7 @@ by regrowing cells in media containing Kan or Gm. Cells that have successfully r
 AB resistance and survive, cells that did not recombine die. This process promotes the survival of bacteria
 carrying more active IS621 variants.
 
-## Target Selection
+## Target Sequence Selection
 As our proof-of-concept is to optimize bridge recombinase activity for AATD treatment, we identified three candidate target sequences (target 1-3) within the SERPINA1 locus. The targets were selected following these criteria: 
 (i) 14 bp-long sequences with a CT core in intron 1 as nearly all disease causing mutations occur downstream of exon 1 [cite]
 
