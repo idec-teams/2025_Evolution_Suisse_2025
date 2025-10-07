@@ -1,1 +1,4 @@
 docs/img/.DS_Store
+desktop.ini
+*.ini
+./**/desktop.ini
