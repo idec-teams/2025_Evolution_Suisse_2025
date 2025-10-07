@@ -34,15 +34,19 @@ After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cel
 To identify optimal induction and selection conditions for detecting IS621-mediated inversions, we screened
 nearly 100 conditions, with the most promising ones discussed below. We co-transformed the selection plasmid (pES013.2A) with a plasmid constitutively expressing IS621 (pES055.2). In this simplified model system, inversion is induced by the addition of aTc leading to the expression of the bRNA A. We first showed that the bacterial population maintains the selection plasmid in the absence of antibiotic selection by Gm or Kan in liquid culture over the course of 15 h (Figure 4 A). Based on this, we devised the induction scheme showed in Figure 4 C.
 ###### addd in figure 4C caption what the blue arrows mean!
-The bacterial population was induced in late exponential phase H<sub>2</sub>O
+The bacterial population was induced in late exponential phase (OD<sub>600</sub>O=0.6). We tested two different conditions: 
+
+    1. No antibiotic after induction
+    
+    2. Kanamycin added after aTc induction to select for succesful inversions of the antibiotic cassette. 
+    
+For each condition, controls where bRNA expression was not induced were included. 
+   
 
 
 
 #### Old text from report
-
-The bacterial population was induced in late exponential phase (OD600 = 0.6).We tested two conditions: One
-culture was grown without AB ,and another was grown with Kan to select for successful inversion of the AB
-cassette. Controls where bRNA expression was not induced were included for each condition. After 15 h the
+  After 15 h the
 bacteria which were grown in the absence of Kan were diluted in fresh media and grown for an additional 15
 hours, allowing for a longer induction period while reducing cell death. Before induction (t=0) we observed
 some bacterial growth on Kan plates, indicating some background resistance of the native bacterial population
