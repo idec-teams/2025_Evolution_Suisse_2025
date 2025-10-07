@@ -37,7 +37,7 @@ Hello
   </div>
 
   <div class="image-item">
-    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Annabelle_winzer.jpg" alt="Dave" style="height:300px;width:300px">
+    <img src="http://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Dave.jpeg" alt="Dave" style="height:300px;width:300px">
     <span> Dave Binder <br>
       Master's student, ETH Zürich
       <br>
