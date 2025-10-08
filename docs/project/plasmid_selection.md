@@ -67,7 +67,8 @@ For each condition, controls in which bRNA expression was not induced were inclu
 Bacteria were grown for 15 hours after induction and then, those grown in absence of Kan were diluted into fresh media and grown for an additional 15 hours. This allowed for a longer induction period while minimizing cell death. 
 Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 3 D (i)).
 
-![Platingassay](../img/Plating_assay.png){width=0.6}Figure 3: Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
+![Platingassay](../img/Plating_assay.png) 
+Figure 3: Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc. **A** Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc. **B</strong** Serial dilution droplet plating of the strain carrying
 pES055.2 and pES013.2A (see Figure 2) after 15 h growth in absence of Gm on Gm/Spec plates. **C** Schematic
@@ -88,18 +89,15 @@ Two escape mutations were identified: large deletions as well as insertions of g
 Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette (Figure 5 A). 
 The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [^trasposon]. This fragment contains a promoter which leads to the expression of KanR and cell survival (Figure 5 B).
 
-
-<figure markdown>
-  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/EscapeMutants.jpg" alt="escape mutants" style="width:80%; display:block; margin:auto;">
-<figcaption>Figure 4: Schematic of escape mutants.</em> In the unmodified selection plasmid, the resistance cassette is under the
-control of only one promoter. Gene deletion <strong>(A)</strong>, off-target recombination or insertion of an exogenous gene
-sequence <strong>(B)</strong> may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
+![escapemut](../img/EscapeMutants.jpg) 
+Figure 4: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
+control of only one promoter. Gene deletion **(A)**, off-target recombination or insertion of an exogenous gene
+sequence **(B)** may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
 formation of escape mutants. Escape mutants express GmR and KanR simultaneously and thus no longer need
 to flip the cassette for survival during selection. During our selection experiments we found two escape mutants.
 One showed a large deletion. Both bRNAs where absent from the plasmid and the KanR gene was under the
 control of the PTet promoter. The the other escape mutants carried a fragment of IS150. The IS150 fragment
-contains an additional promoter and supports KanR expression.</figcaption>
-</figure>
+contains an additional promoter and supports KanR expression.
 
 
 
