@@ -28,8 +28,8 @@ To quantify the transcriptional gain produced by promoter repositioning and to v
 
 <figure markdown>
 ![](../img/PACE_Luminesence_assay.jpg)
-<figcaption> Figure 3: **Validation of promoter repositioning:**  
-The mock inserted plasmid mimics the post-recombination product which leads to constitutive *gIII* expression. Additionally, a luciferase gene placed downstream on the same transcript provides a luminescent readout proportional to transcription to *gIII*   Comparing the pre-recombination state and the mock inserted states reveals a \(\sim10^{4}\)-fold luminescence increase in the mock-integrated condition, confirming strong *gIII* transcription upon promoter repositioning in *E.\ coli* after 16-18 hours incubation at 37°C.
+<figcaption style="font-style: normal;"> <i> <b> Figure 3: Validation of promoter repositioning.</b>
+The mock inserted plasmid mimics the post-recombination product which leads to constitutive </i> gIII  <i> expression. Additionally, a luciferase gene placed downstream on the same transcript provides a luminescent readout proportional to transcription to </i> gIII  <i>. Comparing the pre-recombination state and the mock inserted states reveals a 10^4-fold luminescence increase in the mock-integrated condition, confirming strong </i> gIII  <i> transcription upon promoter repositioning in </i> E. coli  <i> after 16-18 hours incubation at 37°C.
 </figcaption>
 </figure>
 
@@ -37,8 +37,8 @@ Having established activity and a transcriptional readout, we next asked whether
 
 <figure markdown>
 ![](../img/PACE_PP_assay.jpg)
-<figcaption> Figure 3: **Overnight phage propagation assay with WT ISCro4:**  
-<b>A</b> Setup: SP–ISCro4 (no *gIII*) infects hosts bearing AP (promoterless *gIII* + target) and CP (bRNA + promoter–donor); recombination should reposition the promoter to drive *gIII*.  
+<figcaption style="font-style: normal;"> <i> <b> Figure 4: Overnight phage propagation assay with WT ISCro4.</b>
+<b>A</b> Setup: SP–ISCro4 (no </i> gIII  <i>) infects hosts bearing AP (promoterless </i> gIII  <i> + target) and CP (bRNA + promoter–donor); recombination should reposition the promoter to drive </i> gIII  <i>.  
 <b>B</b> Result: After overnight infection with SP–ISCro4, phage titers show no significant increase versus input phage titer and non-targeting bRNA negative controls; likewise for the unspecific selection phage expressing rpoZ. Positive control showes that SP–ISCro4 is capable of propagation when supplied with pIII in trans.  
 <b>C</b> Validation: Junction PCR detects the expected donor–target product, confirming recombination despite the lack of phage amplification.
 </figcaption>
