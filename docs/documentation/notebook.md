@@ -23,7 +23,11 @@
 
 ## June
 
-+ Cloning most level 1 plasmids: bRNA, targets etc
++ Cloning most level 1 plasmids
++ Cloning optimisation for golden gate
++ Creation of promoter and RBS libraries for the genes required for the plasmid based EcORep system
++ Design of the fluorescence based bridge recombinase efficiency assay
++ Design of the DML library of IS622 variants
 
 ## July
 
@@ -34,7 +38,7 @@
 
 + DML variant preparation
 + Illumina sequencing
-+ 
++ Preliminary design of the selection plasmid antibiotic-based functionality assay 
 
 ## September
 
