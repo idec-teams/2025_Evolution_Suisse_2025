@@ -96,8 +96,8 @@ the position of bacterial droplet when plated.
 
 Following this assay monoclonal cultures were grown and their DNA sequenced. While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some of the colonies grown in the presence of Kan.
 Two escape mutations were identified: large deletions as well as insertions of genomic host DNA. 
-Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette (Figure 5 A). 
-The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [^trasposon]. This fragment contains a promoter which leads to the expression of KanR and cell survival (Figure 5 B).
+Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette (Figure 4 A). 
+The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [^trasposon]. This fragment contains a promoter which leads to the expression of KanR and cell survival (Figure 4 B).
 
 <figure markdown>
 ![escapemut](../img/EscapeMutants.jpg) 
