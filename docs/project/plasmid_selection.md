@@ -40,7 +40,7 @@ After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cel
 
 <p align="center">
   <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Flowcyto_data.png" alt="Flowcyto">
-</p>>
+</p>
 <strong>Figure 2:</strong> <em>Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
 type donor and the targets identified within the SERPINA1 locus.</em> <strong>A</strong> Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
@@ -72,8 +72,8 @@ Bacteria were grown for 15 hours after induction and then, those grown in absenc
 Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 3 D (i)).
 
 <p align="center">
-  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="Flowcyto">
-</p>>
+  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="Plating">
+</p>
 <strong>Figure 3:</strong> <em>Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc.</em> <strong>A</strong> Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc. <strong>B</strong> Serial dilution droplet plating of the strain carrying
