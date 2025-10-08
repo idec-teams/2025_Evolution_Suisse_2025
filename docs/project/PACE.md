@@ -1,6 +1,5 @@
 # PACE
 ## System for phage-assisted evolution of bridge recombinases
-### System for phage-assisted evolution of bridge recombinases
 
 ![](../img/PACE_evolution_logic.jpg)
 
@@ -23,7 +22,7 @@ With this setup, we observed that wild-type ISCro4 catalyses insertion in *E. co
 
 To quantify the transcriptional gain produced by promoter repositioning and to validate that the post-recombination state strongly expresses *gIII*, we designed a mock-integrated plasmid that mimics the recombination product: the promoter is pre-installed upstream of *gIII*. On the same transcript downstream of *gIII*, a luciferase is expressed to enable a luminescent readout proportional to transcription through the *gIII*–lux cassette. When comparing strains carrying the pre-recombination configuration versus the mock-integrated (post-recombination) construct, we observed a \textasciitilde 10,000-fold (four-orders-of-magnitude) increase in luminescence for the mock-integrated state (Figure~\ref{fig:PACE_Luminescence_assay}), indicating a working transcription unit upon site-specific insertion.
 
-![](../img/PACE_luminesence_assay.jpg)
+![](../img/PACE_Luminesence_assay.jpg)
 
 *Validation of promoter repositioning:*  
 The mock inserted plasmid mimics the post-recombination product which leads to constitutive *gIII* expression. Additionally, a luciferase gene placed downstream on the same transcript provides a luminescent readout proportional to transcription to *gIII*   Comparing the pre-recombination state and the mock inserted states reveals a \(\sim10^{4}\)-fold luminescence increase in the mock-integrated condition, confirming strong *gIII* transcription upon promoter repositioning in *E.\ coli* after 16-18 hours incubation at 37°C.
