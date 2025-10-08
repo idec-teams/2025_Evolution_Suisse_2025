@@ -118,7 +118,7 @@ To counteract this, we have devised an experimental strategy which aims to reduc
 
 
 <figure markdown>
-  <img src="https://github.com/user-attachments/assets/c2c27f9d-9d59-4c66-b1a3-f6d503c3264d" alt="toxinsystem" style="width:80%; display:block; margin:auto;">
+  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/EscapeMutants_Solution.jpg" alt="toxinsystem" style="width:80%; display:block; margin:auto;">
   <figcaption>Figure 5: Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
 of possible escape mutants. A Native configuration of the selection plasmid with the integrated CcdA/CcDB
 toxin/antitoxin system. Expression of CcdA suppresses CcdB toxicity.B Relocalization of the second promoter
