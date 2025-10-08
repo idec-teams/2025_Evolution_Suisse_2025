@@ -49,6 +49,6 @@
 
 ## October
 
-Presentation
-Wiki
-Poster
++ Presentation preparation
++ Team Wiki creation
++ Poster design 
