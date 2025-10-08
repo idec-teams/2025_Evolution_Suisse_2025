@@ -3,6 +3,10 @@
 We designed an evolution logic that allows for the selection of improved bridge recombinases in *E. coli* (Figure 1). All components necessary for selection are contained on a single ”selection plasmid” while the bridge
 recombinase is located on a different plasmid or orthogonal replicon. This system is adaptable to several continuous DE methods such as MutaT7 [^MutaT7], T7-ORACLE[^T7-ORACLE] and *E. coli* orthogonal replication system (EcORep)
 [^EcORep]. Selection of variants with higher activity occurs as follows: the selection plasmid carries two bRNAs under the control of inducible promoters (Figure 1 A) and a cassette encoding two antibiotic resistance genes facing in opposite directions. This cassette can be inverted via bRNA-mediated recombination. Only one of the resistance genes is expressed in each of the orientations of the cassette. Therefore, it is possible to select for successful inversion of the cassette using antibiotics (Figure 1 B). This allows for the enrichment of recombinase variants with increased activity over time. Expression of bRNA A can be induced by the addition of anhydrotetracycline (aTc) and results in inversion of the cassette from its initial orientation (gentamycin (Gm) →kanamycin (Kan)). Expression of bRNA B is induced using N-(3-Hydroxytetradecanoyl)-DL-homoserine lactone (OHC14) and mediates the reverse process (Kan →Gm)
+
+![Color_coded_Whole_Cell_View](https://github.com/user-attachments/assets/7cb03a12-838e-4119-9c3b-08d94261f8b6)
+
+
 <figure markdown>
   <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Recombination_mechanism.jpg" alt="Wholecell" style="width:80%; display:block; margin:auto;">
   <figcaption>Figure 1: Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
