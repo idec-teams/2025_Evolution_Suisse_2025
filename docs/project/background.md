@@ -31,7 +31,7 @@ Because their targeting is dictated by RNA–DNA pairing, bridge recombinases ar
 So far two bridge recombinases, IS621 and ISCro4, have been characterized. They share about 88% sequence identity, suggesting that many other natural variants likely exist, some potentially even more efficient. Both of these enzymes have shown that RNA-guided recombination works reliably: IS621 functions well in bacteria, and ISCro4 in mammalian cells. Together, they define a new and powerful class of RNA-programmable genome editors that could overcome many limitations of existing technologies [^bridge_1].
 
 <figure markdown>
-  <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Recombination_mechanism.jpg" alt="ISCro4" style="width:60%; display:block; margin:auto;">
+  <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Recombination_mechanism.jpg" alt="ISCro4" style="width:90%; display:block; margin:auto;">
   <figcaption>Figure 3: ISCro4 Bridge Recombinase (Source: Own Figure)</figcaption>
 </figure>
 
@@ -42,9 +42,8 @@ Alpha-1 Antitrypsin Deficiency (A1ATD) is a genetic disorder caused by mutations
 Clinically, A1ATD often goes undiagnosed because its symptoms overlap with other conditions such as asthma, COPD, or chronic liver disease. The disease manifests as lung damage (due to lack of functional α1-antitrypsin) and liver injury (due to accumulation of misfolded protein in hepatocytes) [^aatd_2].
 
 <figure markdown>
-![A1ATD](https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/A1ATD.jpg)
-<figcaption> Figure 1: A1ATD (Source: https://www.genebase.com/products/alpha-1-antitrypsin-deficiency/)
-</figcaption>
+  <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/A1ATD.jpg" alt="A1ATD" style="width:60%; display:block; margin:auto;">
+  <figcaption>Figure 1: A1ATD (Source: <a href="https://www.genebase.com/products/alpha-1-antitrypsin-deficiency/" target="_blank">Genebase</a>)</figcaption>
 </figure>
 
 Recent work by Beam Therapeutics has shown that delivering genetic medicines directly into the liver using lipid nanoparticles (LNPs) can restore α1-antitrypsin expression in humans to therapeutic levels. This demonstrates that enough liver cells can be genetically corrected in vivo to cure the disease, making A1ATD an ideal proof-of-concept model for testing new editing systems [^beam_site].
