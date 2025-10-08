@@ -31,7 +31,7 @@
 
 ## July
 
-+ Introducing deletion into Marionette-Clo _E. Coli_ strain to obtain SEM6 _E.Coli_, a strain that will be used for further transformations in course of the project
++ Deletion of the csg casette in Marionette-Clo _E. Coli_ strain to obtain SEM6 _E.Coli_, a strain that will be used for further transformations in course of the project
 + Fluorescence based efficiency assay (GFP-mScarlet inversion) to determine the initial efficiency of bridge recombinases towards selected target and donor sequences 
 
 ## August
