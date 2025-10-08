@@ -1,18 +1,9 @@
 # Plasmid-based selection system for evolving bridge recombinases
 ## Evolutionary strategy and plasmid design
-We designed an evolution logic that allows for the selection of improved bridge recombinases in *E. coli* (Fig-
-ure 1). All components necessary for selection are contained on a single ”selection plasmid” while the bridge
-recombinase is located on a different plasmid or orthogonal replicon. This system is adaptable to several contin-
-uous DE methods such as MutaT7 [^MutaT7], T7-ORACLE[^T7-ORACLE] and *E. coli* orthogonal replication system (EcORep)
-[^EcORep]. Selection of variants with higher activity occurs as follows: the selection plasmid carries two bRNAs
-under the control of inducible promoters (Figure 1 A) and a cassette encoding two antibiotic resistance genes
-facing in opposite directions. This cassette can be inverted via bRNA-mediated recombination. Only one of
-the resistance genes is expressed in each of the orientations of the cassette. Therefore, it is possible to select for
-successful inversion of the cassette using antibiotics (Figure 1 B). This allows for the enrichment of recombinase variants
-with increased activity over time. Expression of bRNA A can be induced by the addition of anhydrotetracycline
-(aTc) and results in inversion of the cassette from its initial orientation (gentamycin (Gm) →kanamycin (Kan)).
-Expression of bRNA B is induced using N-(3-Hydroxytetradecanoyl)-DL-homoserine lactone (OHC14) and
-mediates the reverse process (Kan →Gm)
+We designed an evolution logic that allows for the selection of improved bridge recombinases in *E. coli* (Figure 1). All components necessary for selection are contained on a single ”selection plasmid” while the bridge
+recombinase is located on a different plasmid or orthogonal replicon. This system is adaptable to several continuous DE methods such as MutaT7 [^MutaT7], T7-ORACLE[^T7-ORACLE] and *E. coli* orthogonal replication system (EcORep)
+[^EcORep]. Selection of variants with higher activity occurs as follows: the selection plasmid carries two bRNAs under the control of inducible promoters (Figure 1 A) and a cassette encoding two antibiotic resistance genes facing in opposite directions. This cassette can be inverted via bRNA-mediated recombination. Only one of the resistance genes is expressed in each of the orientations of the cassette. Therefore, it is possible to select for successful inversion of the cassette using antibiotics (Figure 1 B). This allows for the enrichment of recombinase variants with increased activity over time. Expression of bRNA A can be induced by the addition of anhydrotetracycline (aTc) and results in inversion of the cassette from its initial orientation (gentamycin (Gm) →kanamycin (Kan)). Expression of bRNA B is induced using N-(3-Hydroxytetradecanoyl)-DL-homoserine lactone (OHC14) and mediates the reverse process (Kan →Gm)
+
 
 ![Color_coded_Whole_Cell_View_3](https://github.com/user-attachments/assets/4b06a5a7-0665-4d57-95cd-71e48d96d1e4)
 <figcaption>Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
@@ -30,13 +21,7 @@ carrying more active IS621 variants.
 
 EcORep is a continuous DE method that allows DE of large DNA segments in *E. coli*. EcORep uses genes
 from PRD1 phage to replicate a linear orthogonal replicon (O-Replicon) with an increased mutation rate[^EcORep].
-We attempted to adapt EcORep and use it for the evolution of IS621. IS621
-is encoded on the O-replicon, which allows the generation of many variants in continuous culture. Expression
-of IS621 is controlled by the inducible PVanCC promoter. Cells that carry more active variants of IS621 are
-more likely to recombine during the time interval between bRNA induction and antibiotic (AB) addition. This
-results in enrichment of bacteria carrying more active recombinase variants.
-
-
+We attempted to adapt EcORep and use it for the evolution of IS621. IS621 is encoded on the O-replicon, which allows the generation of many variants in continuous culture. Expression of IS621 is controlled by the inducible PVanCC promoter. Cells that carry more active variants of IS621 are more likely to recombine during the time interval between bRNA induction and antibiotic (AB) addition. This results in enrichment of bacteria carrying more active recombinase variants. Selection takes place in the Marionette-Clo strain [^Marionette] which contains the regulators of all the inducinle promoters used here. 
 
 
 ## Target Sequence Selection
@@ -111,7 +96,7 @@ The second escape mutation we observed was a partial insertion of the transposab
 
 ##### figure escape mutations 
 ![EscapeMutants](https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73)
-<figcaption>Figure 4:Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
+<figcaption>Figure 4: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
 control of only one promoter. Gene deletion (A), off-target recombination or insertion of an exogenous gene
 sequence (B) may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
 formation of escape mutants. Escape mutants express GmR and KanR simultaneously and thus no longer need
@@ -148,6 +133,10 @@ American Association for the Advancement of Science. doi: 10.1126/science.adp958
 enables accelerated evolution in E. coli,” Science, vol. 383, no. 6681, pp. 421–426, Jan. 2024, Publisher:
 American Association for the Advancement of Science. doi: 10.1126/science.adk1281. (visited on
 05/21/2025).
+[^Marionette]: A. J. Meyer, T. H. Segall-Shapiro, E. Glassey, J. Zhang, and C. A. Voigt, “Escherichia coli “Marionette”
+strains with 12 highly optimized small-molecule sensors,” en, Nature Chemical Biology, vol. 15, no. 2,
+pp. 196–204, Feb. 2019, Publisher: Nature Publishing Group, issn: 1552-4469. doi: 10.1038/s41589-
+018-0168-3. (visited on 04/12/2025).
 [^bridgeRecombinases]: M. G. Durrant, N. T. Perry, J. J. Pai, et al., “Bridge RNAs direct programmable recombination of target
 and donor DNA,” Nature, vol. 630, no. 8018, pp. 984–993, Jun. 2024, Epub 2024 Jun 26. doi: 10.1038/
 s41586-024-07552-4.
