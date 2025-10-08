@@ -2,6 +2,7 @@
 
 
 ## General information 
+
 + All restriction enzymes were obtained from New England Biolabs. The workflow was executed accordring to the instructions provided by the manufacturer.
 + Zyppy Plasmid Miniprep Kit (Zymo research) was used for plasmid isolation from bacterial cultures according to the protocol provided by the manufacturer.
 + All DNA fragments for the experiments were codon optimised for _E. coli_, synthesised and ordered from Twist Bioscience.
@@ -36,8 +37,28 @@ The composition of the reactions varied depending on the complexity of the react
 
 ## PCR
 
-1. PCR of all inserts and backbones to create appropriate overhangs 
-2. DpnI Digest: add 0.5 μL of DpnI to 25 μL PCR reaction, incubation 15 min at 37°C (to remove the template DNA)
+1. PCR was performed accordind to the following concentration and thermocycler protocols:
+
+   | Reagent  | Ammount |
+| ------------- | ------------- |
+| 5 × Q5 Reaction Buffer | 5 µL  |
+| 10 µM Forward Primer | 1 µL |
+| 10 µM Reverse Primer  | 1 µL |
+| DNA template  | 100 ng|
+| High-Fidelity DNA Polymerase  | 0.25 µL|
+| Nuclease-Free Water | fill up to 25 µL|
+
+| Step  | Nr. of Cycles | Temperature (ºC)|Time|
+| ------------- | ------------- |------------- |------------- |
+| Denaturation | 1  |95  |1 min  |
+| Denaturation | 30  |95  |30 sec  |
+| Primer annealing | 30 | dependent on the primer characteristics |30 sec  |
+| Extention  | 30 | 72 | 1 min/kb  |
+| Final extention  | 1 | 72 | 5 min  |
+
+3. DpnI Digest: add 0.5 μL of DpnI to 25 μL PCR reaction, incubation 15 min at 37°C (to remove the template DNA)
+
+
 
 
 ## Gibson Assembly
