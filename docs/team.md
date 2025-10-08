@@ -31,7 +31,7 @@ hide:
     <span> Daria Belous <br>
       Master's student, ETH Zürich
       <br>
-       Can pour 90 plates per minute, but forgets how to do a miniprep </span>
+       Master of homeopathic cloning. Can pour 90 plates per minute, but forgets how to do a miniprep </span>
   </div>
 
 
@@ -115,4 +115,16 @@ hide:
 ---
 # Acknowledgements
 
-We want to express our sincere gratitude to all people who contributed to the successful execution of this project. We are thankful to Professor Professor Nash for hosting us in his lab and for facilitating access to the resources necessary for this research. Special thanks go to Lorenz Widmer for his invaluable feedback and guidance throughout the project. We are grateful to Philip Nitsch for his helping hand in the PACE project.
+We want to express our sincere gratitude to all people who contributed to the successful execution of this project. We are thankful to Professor Michael Nash for hosting us in his lab and for facilitating access to the resources necessary for this research. 
+
+Special thanks go to Lorenz Widmer for his invaluable feedback and guidance throughout the project. We value each conversation on the project design, new tricks learned in the lab, and help with data analysis. 
+
+We are grateful to Philip Nitsch for his helping hand in the PACE project.
+
+Finally, we would like to thank all the Nash lab group members for putting up with our us and our mishaps and giving us a helping hand.
+
+The project would also not be possible without the financial help of Werner Siemens Stiftung, MedQap GmbH, ETH, and Georgina Leimer. 
+
+
+
+
