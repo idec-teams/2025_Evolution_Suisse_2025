@@ -4,8 +4,9 @@ We designed an evolution logic that allows for the selection of improved bridge 
 recombinase is located on a different plasmid or orthogonal replicon. This system is adaptable to several continuous DE methods such as MutaT7 [^MutaT7], T7-ORACLE[^T7-ORACLE] and *E. coli* orthogonal replication system (EcORep)
 [^EcORep]. Selection of variants with higher activity occurs as follows: the selection plasmid carries two bRNAs under the control of inducible promoters (Figure 1 A) and a cassette encoding two antibiotic resistance genes facing in opposite directions. This cassette can be inverted via bRNA-mediated recombination. Only one of the resistance genes is expressed in each of the orientations of the cassette. Therefore, it is possible to select for successful inversion of the cassette using antibiotics (Figure 1 B). This allows for the enrichment of recombinase variants with increased activity over time. Expression of bRNA A can be induced by the addition of anhydrotetracycline (aTc) and results in inversion of the cassette from its initial orientation (gentamycin (Gm) →kanamycin (Kan)). Expression of bRNA B is induced using N-(3-Hydroxytetradecanoyl)-DL-homoserine lactone (OHC14) and mediates the reverse process (Kan →Gm)
 
-
-![Color_coded_Whole_Cell_View](../img/Color_coded_Whole_Cell_View.jpeg){width=0.6} Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
+<figure markdown>
+![Color_coded_Whole_Cell_View](../img/Color_coded_Whole_Cell_View.jpeg) 
+ <figcaption> Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
 plasmid in an *E. coli* cell. The mutagenesis plasmid carries the genes necessary for replicating the O-Replicon.
 The O-Replicon carries IS621 under the control of the inducible PVanCC promoter. The selection plasmid
 contains a casette with two antibiotic resistances, Gm resistance (GmR) and Kan resistance (KanR) facing in
@@ -17,7 +18,9 @@ bRNA A or OHC14 for bRNA B. Presence of IS621 + bRNA promotes recombination. Sel
 by regrowing cells in media containing Kan or Gm. Cells that have successfully recombined express the correct
 AB resistance and survive, cells that did not recombine die. This process promotes the survival of bacteria
 carrying more active IS621 variants.
-
+</figcaption>
+</figure>
+ 
 EcORep is a continuous DE method that allows DE of large DNA segments in *E. coli*. EcORep uses genes
 from PRD1 phage to replicate a linear orthogonal replicon (O-Replicon) with an increased mutation rate[^EcORep].
 We attempted to adapt EcORep and use it for the evolution of IS621. IS621 is encoded on the O-replicon, which allows the generation of many variants in continuous culture. Expression of IS621 is controlled by the inducible PVanCC promoter. Cells that carry more active variants of IS621 are more likely to recombine during the time interval between bRNA induction and antibiotic (AB) addition. This results in enrichment of bacteria carrying more active recombinase variants. Selection takes place in the Marionette-Clo strain [^Marionette] which contains the regulators of all the inducible promoters used here. 
@@ -102,7 +105,7 @@ contains an additional promoter and supports KanR expression.
 
 
 These escape mutations represent a limit for the applicability of our system, as they allow cells to grow without the need for IS621-catalysed recombination.
-To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. Escape mutants as shown if Figure 4 appear when a promoter is re-localized and the simultaneous transcription of GmR and KanR are enabled. This renders inversion of the AB cassette unnecessary. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in Figure 5 should greatly reduce the number of escape mutants. The toxin CcdB inhibits DNA gyrase, an essential enzyme that can introduce negative supercoils in the DNA during replication. Loss of gyrase activity results in cell death. The antitoxin CcdA binds CcdB and neutralizes the toxic effects. [^CcdA-CcdB] In our proposed system, both CcdA and CcdB are constitutively expressed. CcdA is located downstream of the AB cassette. Transcription of CcdA is initiated form one of two promoters within the AB cassette, depending on the orientation of the cassette. Insertion, deletion or off target recombination events that could lead to the formation of escape mutants in the previous system results in the loss of CcdA transcription, which leads to cell death. 
+To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. Escape mutants as shown if Figure 4 appear when a promoter is re-localized and the simultaneous transcription of GmR and KanR are enabled. This renders inversion of the AB cassette unnecessary. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in Figure 5 should greatly reduce the number of escape mutants. The toxin CcdB inhibits DNA gyrase, an essential enzyme that can introduce negative supercoils in the DNA during replication. Loss of gyrase activity results in cell death. The antitoxin CcdA binds CcdB and neutralizes the toxic effects. [^CcdA-CcdB] In our proposed system, both CcdA and CcdB are constitutively expressed. CcdA is located downstream of the AB cassette. Transcription of CcdA is initiated form one of two promoters within the AB cassette, depending on the orientation of the cassette. Insertion, deletion or off target recombination events that can lead to the formation of escape mutants in the previous system (pES013.2). In the ajdusted system, such events should result in the loss of CcdA transcription, which leads to cell death. 
 
 
 ![escapemutsolution](../img/EscapeMutants_Solution.jpg) 
@@ -114,9 +117,9 @@ downstream of the cassette leads to loss of CcdA expression and cell death.
 As a next step we aim to demonstrate inversion in the reverse direction (Kan --> Gm) following induction of
 the bRNA. Successful implementation of this step would enable continuous directed evolution. This could involve growing the bacteria in a continuous culture where the media is exchanged slowly overtime to contain different concentrations of the inducers and antibiotics used for selection. Alternately, non-continuous cultures can be used where the bacteria are subjected to iterative cycles of induction and selection.
 
-## Directed Evolution of IS621 using EcORep - citations are missing + add pics of the plasmid schemes from supplementary  
+## Directed Evolution of IS621 using EcORep
 We attempted to apply our evolutionary logic in combination with EcoRep. This system allows for an orthog-
-onally increased mutation rate on the target gene in vivo [cite ].
+onally increased mutation rate on the target gene in vivo [^EcORep].
 Since we were unable to obtain the EcORep strain, we set out to engineer an adapted version of EcORep. Our
 goal was to create a system that carries all the genes necessary for stable replication of the O-Replicon on a single
 plasmid. The original system works as follows: A synthetic replication operon containing the PRD1 genes TP
@@ -129,15 +132,11 @@ gRNA targeted to the IPTG promoter. An additional plasmid expressing the PRD1 ge
 version of DNAP (N71D), is expressed from another plasmid (pRT4-2). In our simplified design (pES084.2,
 17), all genes necessary necessary for replication of the O-Replicon are carried on a low copy plasmid with the
 p15A ori. The TP and mutagenic DNAP-N71D are under the control of the PCymRC promoter optimized by
-Meyer et al.[31] This inducible promoter shows a great dynamic range and low leakiness. Expression in the
+Meyer et al.[^Marionette] This inducible promoter shows a great dynamic range and low leakiness. Expression in the
 induced state is 870 fold higher. Furthermore, we tried to optimize the expression levels of SSB, DSB, and
 Gam by creating a promoter and RBS library for each of the genes. This plasmid-borne system can easily be
 transformed. The reduced number of genetic components should also decrease the metabolic burden of carrying
-the system.
-
-### somewhere refer to figure 1 for the plasmids designed for ecorep
-
-Unfortunately, we have not been able to test our selection strategy with the EcoRep system within the time frame of our project. However, the selection logic is not directly linked to the method of gene diversification. Consequently, the system should work in combination
+the system. Unfortunately, we have not been able to test our selection strategy with the EcoRep system within the time frame of our project. However, the selection logic is not directly linked to the method of gene diversification. Consequently, the system should work in combination
 with EcORep given that both systems have been shown to work independantly. The selection could also be employed in combination with any other DE method as long as selection takes place in vivo. Furthermore, the strategy requires only simple laboratory equipment.
     
 ## Markdown footnotes for citations
@@ -168,6 +167,3 @@ intermediates,” Journal of Bacteriology, vol. 184, no. 21, pp. 5833–5841, 20
 Disordered Protein Domain,” English, Molecular Cell, vol. 35, no. 2, pp. 154–163, Jul. 2009, Publisher:
 Elsevier, issn: 1097-2765. doi: 10.1016/j.molcel.2009.05.025. (visited on 10/08/2025).
 
-## Add images:
-
-![dummy image](img/dummy.png){ width=800px }

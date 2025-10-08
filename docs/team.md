@@ -5,9 +5,6 @@ hide:
 
 # Our Team
 
-
-
-
 <div class="image-grid">
   <div class="image-item">
     <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Annabelle_winzer.jpg" alt="Annabelle" style="height:300px;width:300px">
@@ -64,11 +61,6 @@ hide:
   </div>
 
 
-
-
-
-  
-
   <div class="image-item">
     <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/saskia.jfif" alt="Saskia" style="height:300px;width:300px">
     <span> Saskia Gerecke <br>
@@ -77,14 +69,12 @@ hide:
        Can mindcontrol phages and dance battle Etienne </span>
   </div>
 
-
-
   <div class="image-item">
     <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/david.jfif" alt="David" style="height:300px;width:300px">
     <span> David Jewanski <br>
       Master's student, ETH Zürich
       <br>
-       Doesn't know where moon is </span>
+       Keeps calm and codes on (for everyone else). </span>
   </div>
 
   <div class="image-item">
@@ -105,7 +95,13 @@ hide:
        Can sacrifice your kindey for the team budget and his own fridge space for the project </span>
   </div>
 
-
+  <div class="image-item">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Kian.jpg" alt="Kian" style="height:300px;width:300px">
+    <span>Kian Bigović Villi <br>
+      Team Advisor, ETH Zürich
+      <br>
+      Provides feedback at T-minus 120 minutes. </span>
+  </div>
 
   <div class="image-item">
     <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/nash.jpeg" alt="Michael Nash" style="height:300px;width:300px">
@@ -114,22 +110,7 @@ hide:
       <br>
       Associate Professor at the Department of Biosystems Science and Engineering </span>
   </div>
-
-  <div class="image-grid">
-  <div class="image-item">
-    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/placeholder.jfif" alt="girls" style="height:300px;width:300px">
-    <span> Girl's trip to Ilmac Basel <br>
-      
-      <br>
-       just checking if this is why the lines don't work </span>
-  </div>
-
-  
-  
-
- </div>
- 
-<p></p>
+</div>
  
 # Acknowledgements
 

@@ -12,7 +12,7 @@ The strain was generated using lambda red recombineering using pSIJ8 [^jensen_1]
 ## Validation by qPCR
 
 <figure markdown>
-![DML Overview](../img/cPCR.png)
+![cPCR](../img/cPCR.png)
 <figcaption> 
 </figcaption>
 </figure>
@@ -25,7 +25,7 @@ dsDNA substrate is 1.5 kb. This is seen in C2, thus confirming the successful in
 
 ## Genomeseq
 
-Validation by genomeseq.
+Finally to validate that the strain is correct and that no off target mutations have been introduced, the strain was sent for whole genome sequencing. The results can be found here: [sEM6 Genomeseq](https://idec-teams.github.io/2025_Evolution_Suisse_2025/project/genome-seq/). 
 
 
 [^jensen_1]: S. I. Jensen, R. M. Lennen, M. J. Herrgård, and A. T. Nielsen, “Seven gene deletions in seven days: Fast generation of escherichia coli strains tolerant to acetate and osmotic stress,” Scientific Reports, vol. 5, no. 17874, 2016. doi: 10.1038/srep17874.
