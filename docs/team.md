@@ -48,7 +48,7 @@ hide:
     <span> Etienne Mathier <br>
       Master's student, ETH Zürich
       <br>
-       Can make strains and control liquid nitrogen (but can't win against Saskia in dance battle) </span>
+       Can make strains and is cooler than liquid nitrogen (but can't win beat Saskia in dance battles). </span>
   </div>
 
   
