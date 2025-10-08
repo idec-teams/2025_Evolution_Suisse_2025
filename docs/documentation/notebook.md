@@ -38,7 +38,7 @@
 
 + DML variant preparation
 + Illumina sequencing
-+ 
++ Preliminary design of the selection plasmid antibiotic-based functionality assay 
 
 ## September
 
