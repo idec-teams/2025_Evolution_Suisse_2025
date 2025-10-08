@@ -88,7 +88,7 @@ hide:
   </div>
 
   <div class="image-item">
-    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/lorenz.jpg" alt="Lorenz" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/lorenzz.jfif" alt="Lorenz" style="height:300px;width:300px">
     <span> Lorenz Widmer <br>
       Team Advisor, ETH Zürich und Uni Basel
       <br>
