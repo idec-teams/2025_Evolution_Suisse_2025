@@ -14,7 +14,7 @@ hide:
     <span> Annabelle Winzer <br>
       Master's student, ETH Zürich
       <br>
-       The lab-manager, assay developer, does not believe in being sick for over a week. Still thinks that Size Matters would have been a better title for our project. </span>
+       Still thinks that "Size Matters" would have been a better title for our project. </span>
   </div>
 
 
@@ -60,7 +60,7 @@ hide:
     <span> Sofia Filippini <br>
       Master's student, ETH Zürich
       <br>
-       Flippin them fluorescent cassettes. If excitment for a topic could win you the Nobel Prize, she would have the one for GFP.</span>
+       If excitment for a topic could win you the Nobel Prize, she would have the one for GFP.</span>
   </div>
 
 
@@ -102,7 +102,7 @@ hide:
     <span>  Philip Nitsch <br>
       Team Advisor, ETH Zürich 
       <br>
-       Is in the team to find a sellable kidney/ Can sacrifice your kindey for the team budget and his own fridge space for the project </span>
+       Can sacrifice your kindey for the team budget and his own fridge space for the project </span>
   </div>
 
 

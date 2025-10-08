@@ -26,7 +26,7 @@ We attempted to adapt EcORep and use it for the evolution of IS621. IS621 is enc
 ## Target Sequence Selection
 As our proof-of-concept is to optimize bridge recombinase activity for AATD treatment, we identified three candidate target sequences (target 1-3) within the SERPINA1 locus. The targets were selected following these criteria: 
 
-(i) 14 bp-long sequences with a CT core in intron 1 as nearly all disease causing mutations occur downstream of exon 1 [cite]
+(i) 14 bp-long sequences with a CT core in intron 1 as nearly all disease causing mutations occur downstream of exon 1 [^ncbiSERPINA1]
 
 (ii) excluded those with either direct match or 1 mismatch to any sequence in the _E. coli_ genome to reduce off targets
 
@@ -37,7 +37,7 @@ The screening plasmid expresses mGreenLantern under the control of a constitutiv
 
 After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cells, whereas, the non-targeted target-sequence showed < 1 % positive cells (Figure 2B), confirming target-specific inversion events. Similarly, we observed <1 % positive cells in the uninduced control in all conditions, except target 2 and 3, where we observed 2% positive cells at the 15 h time point. This is indicative of effective promoter repression in the absence of the inducer. Furthermore, we were only able to observe a change in fluorescent protein expression after 15 hours of induction, as there were <1 % mScarlet positive cells 2 hours after induction across all conditions. Lastly, flipping events were confirmed by Oxford Nanopore sequencing. Target 1 showed the highest activity and was selected as the primary target sequence from this point forward.
 
-![Flowcyto](../img/Flowcyto_data.png){width=0.6}Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+![Flowcyto](../img/Flowcyto_data.png)Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
 type donor and the targets identified within the SERPINA1 locus.**A** Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
 and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
@@ -157,6 +157,7 @@ American Association for the Advancement of Science. doi: 10.1126/science.adk128
 strains with 12 highly optimized small-molecule sensors,” en, Nature Chemical Biology, vol. 15, no. 2,
 pp. 196–204, Feb. 2019, Publisher: Nature Publishing Group, issn: 1552-4469. doi: 10.1038/s41589-
 018-0168-3. (visited on 04/12/2025).
+[^ncbiSERPINA1]: “SERPINA1: Chr14 - Genome Data Viewer - NCBI.” Accessed: Oct. 08, 2025. Available: https://www.ncbi.nlm.nih.gov/gdv/browser/gene/?id=5265
 [^bridgeRecombinases]: M. G. Durrant, N. T. Perry, J. J. Pai, et al., “Bridge RNAs direct programmable recombination of target
 and donor DNA,” Nature, vol. 630, no. 8018, pp. 984–993, Jun. 2024, Epub 2024 Jun 26. doi: 10.1038/
 s41586-024-07552-4.
