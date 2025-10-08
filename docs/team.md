@@ -31,7 +31,7 @@ hide:
     <span> Daria Belous <br>
       Master's student, ETH Zürich
       <br>
-       Can pour 90 plates per minute, but forgets how to do a miniprep </span>
+       Master of homeopathic cloning. Can pour 90 plates per minute, but forgets how to do a miniprep </span>
   </div>
 
 
