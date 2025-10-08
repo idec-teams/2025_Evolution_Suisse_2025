@@ -23,7 +23,7 @@ Genetic variants of the ISCro4 are tested based on their inversion performance o
 The donor sequence is located in close proximity to the ISCro4 library variants. The presence or absence of an inversion event, given by the sequence after the donor CT core, can be directly linked to the sequence of the corresponding variant. This design enables direct assessment of both genotype and phenotype with deep short-read sequencing.
 
 <figure markdown>
-![DML Plasmid](../img/DML_Plasmid.png){width=150}
+![DML Plasmid](../img/DML_Plasmid.png){width=400}
 <figcaption> Figure 2: Plasmid encoding the logic for the efficiency assay of the ISCro4.
 </figcaption>
 </figure>
@@ -46,10 +46,10 @@ The six fragment pools were cloned using Golden Gate assembly into a plasmid cal
 </figure>
 
 ## Efficiency Assay & Deep sequencing strategy of ISCro4 gene variants in *E. coli*
-Next, we transformed and cultured *E. coli* Marionette-Clo and sEM6 strains with pES071.2 (Figure 5). Both strains express *cinR^AM^* allowing OHC14-induced transcription of the PCin controlled bRNA. The resulting ISCro4-bRNA complex inverts the DNA sequence flanked by the target and donor sequences right after their CT core. This includes the ISCro4 gene.
+Next, we transformed and cultured *E. coli* Marionette-Clo and sEM6 strains with pES071.2 (Figure 5). Both strains express <i>cinR<sup>AM</sup></i> allowing OHC14-induced transcription of the PCin controlled bRNA. The resulting ISCro4-bRNA complex inverts the DNA sequence flanked by the target and donor sequences right after their CT core. This includes the ISCro4 gene.
 
 <figure markdown>
-![DML Assay](../img/DML_Assay.png){width=150}
+![DML Assay](../img/DML_Assay.png){width=400}
 <figcaption> Figure 5: Workflow scheme of the transformation and cultuvation of host strains.
 </figcaption>
 </figure>
@@ -57,13 +57,13 @@ Next, we transformed and cultured *E. coli* Marionette-Clo and sEM6 strains with
 After purifying pES071.2 from the cultivated bacteria, we performed Illumina library preparation to recover the screened variants and the inversion states. Primers with Nextera Transposase Adaptors, anneal to the plasmid to amplify the library fragment for subsequent sequencing (as indicated in Figure 2). Index Primer 1 (P1) anneals in the ISCro4 gene right before the start of the library fragments. Index Primer 2 anneals twice on the plasmid, before the target sequence (P2') and after the donor sequence (P2) on the reverse stand. The PCR results in a 362 bp long product, regardless of whether the plasmid sequence was the original, P1 - P2, or inverted, P1 - P2' (Figure 6). The PCR products of the original or inverted plasmids differ by the first 7 bp before the CT core in the donor or target region, as these nucleotides are not affected by the inversion. Therefore, the PCR products serve both as identifiers for the gene variant and as binary markers indicating whether an inversion has occurred. We amplified the PCR product a second time using Illumina DNA / RNA UD Indexes, gel and bead purified and submitted the samples for Illumina paired-end sequencing at the Genomics Facility Basel.
 
 <figure markdown>
-![DML Illumina Perparation](../img/DML_IlluminaPrep.png){width=150}
+![DML Illumina Perparation](../img/DML_IlluminaPrep.png){width=400}
 <figcaption> Figure 6: Logic of the Illumina Sequencing library preparation.
 </figcaption>
 </figure>
 
 ## Illumina results of paired end Read1
-Preliminary sequencing results of Read1 in the paired-end sequencing strategy yielded approximately 300 million reads across all submitted samples, confirming high quality of the sequencing library. Our analysis of the reads shows a similar but more conservative mutation distribution compared to the expected distribution derived from \textit{in silico} simulations of the fragment pooling ratios, 60\% wild type, 30\% single mutant, and 10\% double mutant (Figure 7). The remaining samples are currently being processed at the Genomics Facility Basel and will be analyzed to generate the training dataset for machine learning. 
+Preliminary sequencing results of Read1 in the paired-end sequencing strategy yielded approximately 250 million reads across all submitted samples, confirming high quality of the sequencing library. Our analysis of the reads shows a similar but more conservative mutation distribution compared to the expected distribution derived from *in silico* simulations of the fragment pooling ratios, 60 % wild type, 30 % single mutant, and 10 % double mutant (Figure 7). The remaining samples are currently being processed at the Genomics Facility Basel and will be analyzed to generate the training dataset for machine learning. 
 
 <figure markdown>
 ![DML Library Mutations](../img/DML_Mutations.png)
@@ -72,11 +72,11 @@ Preliminary sequencing results of Read1 in the paired-end sequencing strategy yi
 </figure>
 
 ## Outlook for understanding the fittness landscape with a machine learning model
-A dataset of 50,000 to 100,000 variants can be used to train a deep learning encoder–decoder model. The model's latent space representation of ISCro4 variants might transfer to the fitness landscape, understanding epistatic effects of multiple mutations. Sampling from such a latent space would in turn enable the generation of functional sequences that cover different areas of the fitness landscape. These sampled variants can be evolved to their local fitness optima.
+The resulting dataset of 50,000 to 500,000 variants can be used to train a deep learning encoder–decoder model. The model's latent space representation of ISCro4 variants might transfer to the fitness landscape, understanding epistatic effects of multiple mutations. Sampling from such a latent space would in turn enable the generation of functional sequences that cover different areas of the fitness landscape. These sampled variants can be evolved to their local fitness optima.
 
-In the event that screening the unbiased library does not provide sufficient information to train a model capable of learning a meaningful latent space, a second, biased library can be designed and screened. Such a library could be guided by the mutational tolerance patterns revealed by the previous DMS \cite{Durrant2024BridgeRNA}, thereby enriching the dataset with functionally relevant variants. 
+In the event that screening the unbiased library does not provide sufficient information to train a model capable of learning a meaningful latent space, a second, biased library can be designed and screened. Such a library could be guided by the mutational tolerance patterns revealed by the previous DMS[^Perry], thereby enriching the dataset with functionally relevant variants. 
 
-By coupling genotype and phenotype in a pooled, sequencing-based assay, this framework enables the high-throughput generation of training data and lays the foundation for ML-guided DE of bridge recombinases.
+By coupling genotype and phenotype in a pooled, sequencing-based assay, this framework enables the high-throughput generation of training data and lays the foundation for ML-guided DE of bridge recombinases. We are looking forward to train models once the Illumina Deep Sequencing data has arrived.
 
 ## References
 [^DE_review]: L. Sellés Vidal, M. Isalan, J. T. Heap, and R. Ledesma-Amaro, “A primer to directed evolution: Current methodologies and future directions,” RSC Chemical Biology, vol. 4, no. 4, pp. 271–291, 2023. doi: 10.1039/D2CB00231K.
