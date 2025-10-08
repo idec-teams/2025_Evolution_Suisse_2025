@@ -1,0 +1,297 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>SEM6 :: BRESEQ :: Marginal Predictions</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td><a href="http://barricklab.org/breseq"><img src="evidence/breseq_small.png" /></a></td>
+<td width="100%">
+<b><i>breseq</i></b>&nbsp;&nbsp;version 0.39.0&nbsp;&nbsp;
+<br><a href="index.html">mutation predictions</a> | 
+<a href="marginal.html">marginal predictions</a> | 
+<a href="summary.html">summary statistics</a> | 
+<a href="output.gd">genome diff</a> | 
+<a href="log.txt">command line log</a>
+</td></tr></table>
+
+<p>
+<p>
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="12" align="left" class="new_junction_header_row">Marginal new junction evidence (lowest skew 10 of 49 shown)</th></tr>
+<!-- Header Lines for New Junction -->
+<tr>
+<th colspan="2">&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th>position</th>
+<th>reads&nbsp;(cov)</th>
+<th>reads&nbsp;(cov)</th>
+<th>score</th>
+<th>skew</th>
+<th>freq</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">product</th>
+</tr>
+
+<!-- Item Lines for New Junction -->
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_30.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_30.html">?</a></td>
+<td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">=&nbsp;1178655</td><td align="center" class="junction_gene">8 (0.440)</td><td rowspan="2" align="center">7 (0.390)</td>
+<td rowspan="2" align="center">7/392</td>
+<td rowspan="2" align="center">1.4</td>
+<td rowspan="2" align="center">46.7%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(&#8209;5/+110)</td>
+<td align="center" class="junction_gene"><i>solA&nbsp;CDS&nbsp;(N&#8209;methyl&#8209;L&#8209;tryptophan&nbsp;oxidase)/bssS&nbsp;CDS&nbsp;(biofilm&nbsp;formation&nbsp;regulator&nbsp;BssS)</i></td>
+<td class="junction_gene">solA CDS (N&#8209;methyl&#8209;L&#8209;tryptophan oxidase)/bssS CDS (biofilm formation regulator BssS)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_30.html">?</a></td><td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">1178659&nbsp;=</td>
+<td align="center" class="junction_gene">8 (0.450)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;9/+106)</td>
+<td align="center" class="junction_gene"><i>solA&nbsp;CDS&nbsp;(N&#8209;methyl&#8209;L&#8209;tryptophan&nbsp;oxidase)/bssS&nbsp;CDS&nbsp;(biofilm&nbsp;formation&nbsp;regulator&nbsp;BssS)</i></td>
+<td class="junction_gene">solA CDS (N&#8209;methyl&#8209;L&#8209;tryptophan oxidase)/bssS CDS (biofilm formation regulator BssS)</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_62.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_62.html">?</a></td>
+<td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">=&nbsp;3693901</td><td align="center" class="junction_gene">24 (1.330)</td><td rowspan="2" align="center">6 (0.340)</td>
+<td rowspan="2" align="center">6/386</td>
+<td rowspan="2" align="center">1.6</td>
+<td rowspan="2" align="center">20.9%</td>
+<td align="center" class="junction_gene">coding&nbsp;(122/2199&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>zntA&nbsp;CDS&nbsp;(Zn(II)_Cd(II)_Pb(II)&nbsp;translocating&nbsp;P&#8209;type&nbsp;ATPase&nbsp;ZntA)</i></td>
+<td class="junction_gene">zntA CDS (Zn(II)/Cd(II)/Pb(II) translocating P&#8209;type ATPase ZntA)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_62.html">?</a></td><td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">3693906&nbsp;=</td>
+<td align="center" class="junction_gene">22 (1.250)</td><td align="center" class="junction_gene">coding&nbsp;(127/2199&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>zntA&nbsp;CDS&nbsp;(Zn(II)_Cd(II)_Pb(II)&nbsp;translocating&nbsp;P&#8209;type&nbsp;ATPase&nbsp;ZntA)</i></td>
+<td class="junction_gene">zntA CDS (Zn(II)/Cd(II)/Pb(II) translocating P&#8209;type ATPase ZntA)</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_20.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_20.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_repeat">=&nbsp;199656</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">6 (0.340)</td>
+<td rowspan="2" align="center">6/390</td>
+<td rowspan="2" align="center">1.6</td>
+<td rowspan="2" align="center">NA</td>
+<td align="center" class="junction_repeat">noncoding&nbsp;(446/1554&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>HO394_00900&nbsp;rRNA&nbsp;(16S&nbsp;ribosomal&nbsp;RNA)</i></td>
+<td class="junction_repeat">HO394_00900 rRNA (16S ribosomal RNA)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_20.html">?</a></td><td rowspan="1" class="junction_repeat">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_repeat">199661&nbsp;=</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">noncoding&nbsp;(451/1554&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>HO394_00900&nbsp;rRNA&nbsp;(16S&nbsp;ribosomal&nbsp;RNA)</i></td>
+<td class="junction_repeat">HO394_00900 rRNA (16S ribosomal RNA)</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_53.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_53.html">?</a></td>
+<td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">=&nbsp;3195206</td><td align="center" class="junction_gene">8 (0.440)</td><td rowspan="2" align="center">6 (0.330)</td>
+<td rowspan="2" align="center">5/394</td>
+<td rowspan="2" align="center">1.9</td>
+<td rowspan="2" align="center">42.9%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(+58/+91)</td>
+<td align="center" class="junction_gene"><i>yghD&nbsp;CDS&nbsp;(GspM&nbsp;family&nbsp;type&nbsp;II&nbsp;secretion&nbsp;system&nbsp;protein&nbsp;YghD)/HO394_15555&nbsp;tRNA&nbsp;(tRNA&#8209;Phe)</i></td>
+<td class="junction_gene">yghD CDS (GspM family type II secretion system protein YghD)/HO394_15555 tRNA (tRNA&#8209;Phe)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_53.html">?</a></td><td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">3195211&nbsp;=</td>
+<td align="center" class="junction_gene">8 (0.440)</td><td align="center" class="junction_gene">intergenic&nbsp;(+63/+86)</td>
+<td align="center" class="junction_gene"><i>yghD&nbsp;CDS&nbsp;(GspM&nbsp;family&nbsp;type&nbsp;II&nbsp;secretion&nbsp;system&nbsp;protein&nbsp;YghD)/HO394_15555&nbsp;tRNA&nbsp;(tRNA&#8209;Phe)</i></td>
+<td class="junction_gene">yghD CDS (GspM family type II secretion system protein YghD)/HO394_15555 tRNA (tRNA&#8209;Phe)</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_48.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_48.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_repeat">=&nbsp;2802437</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">5 (0.280)</td>
+<td rowspan="2" align="center">5/392</td>
+<td rowspan="2" align="center">1.9</td>
+<td rowspan="2" align="center">NA</td>
+<td align="center" class="junction_repeat">noncoding&nbsp;(2650/2930&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>HO394_13635&nbsp;rRNA&nbsp;(23S&nbsp;ribosomal&nbsp;RNA)</i></td>
+<td class="junction_repeat">HO394_13635 rRNA (23S ribosomal RNA)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_48.html">?</a></td><td rowspan="1" class="junction_repeat">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_repeat">2802441&nbsp;=</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">noncoding&nbsp;(2646/2930&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>HO394_13635&nbsp;rRNA&nbsp;(23S&nbsp;ribosomal&nbsp;RNA)</i></td>
+<td class="junction_repeat">HO394_13635 rRNA (23S ribosomal RNA)</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_32.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_32.html">?</a></td>
+<td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">=&nbsp;1298688</td><td align="center" class="junction_gene">12 (0.670)</td><td rowspan="2" align="center">7 (0.390)</td>
+<td rowspan="2" align="center">5/388</td>
+<td rowspan="2" align="center">1.9</td>
+<td rowspan="2" align="center">38.0%</td>
+<td align="center" class="junction_gene">coding&nbsp;(125/2868&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>HO394_06285&nbsp;CDS&nbsp;(autotransporter&nbsp;outer&nbsp;membrane&nbsp;beta&#8209;barrel&nbsp;domain&#8209;containing&nbsp;protein)</i></td>
+<td class="junction_gene">HO394_06285 CDS (autotransporter outer membrane beta&#8209;barrel domain&#8209;containing protein)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_32.html">?</a></td><td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">1298692&nbsp;=</td>
+<td align="center" class="junction_gene">11 (0.620)</td><td align="center" class="junction_gene">coding&nbsp;(121/2868&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>HO394_06285&nbsp;CDS&nbsp;(autotransporter&nbsp;outer&nbsp;membrane&nbsp;beta&#8209;barrel&nbsp;domain&#8209;containing&nbsp;protein)</i></td>
+<td class="junction_gene">HO394_06285 CDS (autotransporter outer membrane beta&#8209;barrel domain&#8209;containing protein)</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_15.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_15.html">?</a></td>
+<td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">305&nbsp;=</td><td align="center" class="junction_gene">13 (0.720)</td><td rowspan="2" align="center">6 (0.340)</td>
+<td rowspan="2" align="center">5/382</td>
+<td rowspan="2" align="center">1.9</td>
+<td rowspan="2" align="center">32.8%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(+50/&#8209;32)</td>
+<td align="center" class="junction_gene"><i>thrL&nbsp;CDS&nbsp;(thr&nbsp;operon&nbsp;leader&nbsp;peptide)/thrA&nbsp;CDS&nbsp;(bifunctional&nbsp;aspartate&nbsp;kinase_homoserine&nbsp;dehydrogenase&nbsp;I)</i></td>
+<td class="junction_gene">thrL CDS (thr operon leader peptide)/thrA CDS (bifunctional aspartate kinase/homoserine dehydrogenase I)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_15.html">?</a></td><td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">=&nbsp;301</td>
+<td align="center" class="junction_gene">12 (0.690)</td><td align="center" class="junction_gene">intergenic&nbsp;(+46/&#8209;36)</td>
+<td align="center" class="junction_gene"><i>thrL&nbsp;CDS&nbsp;(thr&nbsp;operon&nbsp;leader&nbsp;peptide)/thrA&nbsp;CDS&nbsp;(bifunctional&nbsp;aspartate&nbsp;kinase_homoserine&nbsp;dehydrogenase&nbsp;I)</i></td>
+<td class="junction_gene">thrL CDS (thr operon leader peptide)/thrA CDS (bifunctional aspartate kinase/homoserine dehydrogenase I)</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_74.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_74.html">?</a></td>
+<td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">=&nbsp;4567964</td><td align="center" class="junction_gene">17 (0.940)</td><td rowspan="2" align="center">4 (0.230)</td>
+<td rowspan="2" align="center">4/388</td>
+<td rowspan="2" align="center">2.2</td>
+<td rowspan="2" align="center">19.6%</td>
+<td align="center" class="junction_gene">coding&nbsp;(123/1815&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>HO394_22010&nbsp;CDS&nbsp;(hypothetical&nbsp;protein)</i></td>
+<td class="junction_gene">HO394_22010 CDS (hypothetical protein)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_74.html">?</a></td><td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">4567968&nbsp;=</td>
+<td align="center" class="junction_gene">16 (0.900)</td><td align="center" class="junction_gene">coding&nbsp;(127/1815&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>HO394_22010&nbsp;CDS&nbsp;(hypothetical&nbsp;protein)</i></td>
+<td class="junction_gene">HO394_22010 CDS (hypothetical protein)</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_70.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_70.html">?</a></td>
+<td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">=&nbsp;4222841</td><td align="center" class="junction_gene">23 (1.280)</td><td rowspan="2" align="center">4 (0.230)</td>
+<td rowspan="2" align="center">4/388</td>
+<td rowspan="2" align="center">2.2</td>
+<td rowspan="2" align="center">14.9%</td>
+<td align="center" class="junction_gene">coding&nbsp;(727/960&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>ftsN&nbsp;CDS&nbsp;(cell&nbsp;division&nbsp;protein&nbsp;FtsN)</i></td>
+<td class="junction_gene">ftsN CDS (cell division protein FtsN)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_70.html">?</a></td><td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">4222845&nbsp;=</td>
+<td align="center" class="junction_gene">23 (1.300)</td><td align="center" class="junction_gene">coding&nbsp;(723/960&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>ftsN&nbsp;CDS&nbsp;(cell&nbsp;division&nbsp;protein&nbsp;FtsN)</i></td>
+<td class="junction_gene">ftsN CDS (cell division protein FtsN)</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_45.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_45.html">?</a></td>
+<td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">=&nbsp;2522777</td><td align="center" class="junction_gene">18 (1.000)</td><td rowspan="2" align="center">4 (0.230)</td>
+<td rowspan="2" align="center">4/388</td>
+<td rowspan="2" align="center">2.2</td>
+<td rowspan="2" align="center">18.3%</td>
+<td align="center" class="junction_gene">coding&nbsp;(592/1086&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>aroC&nbsp;CDS&nbsp;(chorismate&nbsp;synthase)</i></td>
+<td class="junction_gene">aroC CDS (chorismate synthase)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_45.html">?</a></td><td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">2522781&nbsp;=</td>
+<td align="center" class="junction_gene">18 (1.010)</td><td align="center" class="junction_gene">coding&nbsp;(588/1086&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>aroC&nbsp;CDS&nbsp;(chorismate&nbsp;synthase)</i></td>
+<td class="junction_gene">aroC CDS (chorismate synthase)</td>
+</tr>
+</table>
+</body></html>
