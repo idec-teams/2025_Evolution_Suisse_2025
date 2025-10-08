@@ -48,11 +48,13 @@ The composition of the reactions varied depending on the complexity of the react
 | High-Fidelity DNA Polymerase  | 0.25 µL|
 | Nuclease-Free Water | fill up to 20 µL|
 
+
+
 | Step  | Nr. of Cycles | Temperature (ºC)|Time|
 | ------------- | ------------- |------------- |------------- |
 | Denaturation | 1  |95  |1 min  |
 | Denaturation | 30  |95  |30 sec  |
-| Primer annealing | 30 | dependent on the primer characteristics |30 sec  |
+| Primer annealing | 30 | Dependent on the primer characteristics |30 sec  |
 | Extention  | 30 | 72 | 1 min/kb  |
 | Final extention  | 1 | 72 | 5 min  |
 
