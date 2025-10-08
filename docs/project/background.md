@@ -32,7 +32,7 @@ So far two bridge recombinases, IS621 and ISCro4, have been characterized. They 
 
 <figure markdown>
   <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Recombination_mechanism.jpg" alt="ISCro4" style="width:80%; display:block; margin:auto;">
-  <figcaption>Figure 3: ISCro4 Bridge Recombinase (Source: Own Figure)</figcaption>
+  <figcaption>Figure 3: ISCro4 Bridge Recombinase (Source: Adapted from [^bridge_2])</figcaption>
 </figure>
 
 ## Alpha-1 Antitrypsin Deficiency as a Proof of Concept
