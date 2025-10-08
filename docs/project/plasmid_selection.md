@@ -14,7 +14,7 @@ with increased activity over time. Expression of bRNA A can be induced by the ad
 Expression of bRNA B is induced using N-(3-Hydroxytetradecanoyl)-DL-homoserine lactone (OHC14) and
 mediates the reverse process (Kan →Gm)
 
-![Color_coded_Whole_Cell_View_3](https://github.com/user-attachments/assets/4b06a5a7-0665-4d57-95cd-71e48d96d1e4){ width=800px }
+![Color_coded_Whole_Cell_View_3](https://github.com/user-attachments/assets/4b06a5a7-0665-4d57-95cd-71e48d96d1e4){width=800px }
 <figcaption>Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
 plasmid in an E. coli cell. The mutagenesis plasmid carries the genes necessary for replicating the O-Replicon.
 The O-Replicon carries IS621 under the control of the inducible PVanCC promoter. The selection plasmid
