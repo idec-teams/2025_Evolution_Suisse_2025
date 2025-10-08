@@ -1,11 +1,11 @@
 # Phlasmid-based selection system for evolving bridge recombinases
 ## Evolutionary strategy and plasmid design
 We designed an evolution logic that allows for the selection of improved bridge recombinases in *E. coli* (Fig-
-ure 2). All components necessary for selection are contained on a single ”selection plasmid” while the bridge
+ure 1). All components necessary for selection are contained on a single ”selection plasmid” while the bridge
 recombinase is located on a different plasmid or orthogonal replicon. This system is adaptable to several contin-
 uous DE methods such as MutaT7 [^MutaT7], T7-ORACLE[^T7-ORACLE] and E. coli orthogonal replication system (EcORep)
 [^EcORep]. Selection of variants with higher activity occurs as follows: the selection plasmid carries two bRNAs
-under the control of inducible promoters (Figure 2 A) and a cassette encoding two antibiotic resistance genes
+under the control of inducible promoters (Figure 1 A) and a cassette encoding two antibiotic resistance genes
 facing in opposite directions. This cassette can be inverted via bRNA-mediated recombination. Only one of
 the resistance genes is expressed in each of the orientations of the cassette. Therefore, it is possible to select for
 successful inversion of the cassette using antibiotics (2). This allows for the enrichment of recombinase variants
@@ -14,7 +14,7 @@ with increased activity over time. Expression of bRNA A can be induced by the ad
 Expression of bRNA B is induced using N-(3-Hydroxytetradecanoyl)-DL-homoserine lactone (OHC14) and
 mediates the reverse process (Kan →Gm)
 
-![Color_coded_Whole_Cell_View_3](https://github.com/user-attachments/assets/4b06a5a7-0665-4d57-95cd-71e48d96d1e4){width=800px }
+![Color_coded_Whole_Cell_View_3](https://github.com/user-attachments/assets/4b06a5a7-0665-4d57-95cd-71e48d96d1e4)
 <figcaption>Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
 plasmid in an E. coli cell. The mutagenesis plasmid carries the genes necessary for replicating the O-Replicon.
 The O-Replicon carries IS621 under the control of the inducible PVanCC promoter. The selection plasmid
@@ -111,6 +111,7 @@ The second escape mutation we observed was a partial insertion of the transposab
 
 ##### figure escape mutations 
 ![EscapeMutants](https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73)
+
 
 These escape mutations represent a limit for the applicability of our system, as they allow cells to grow without the need for IS621-catalysed recombination.
 To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in figure xx should greatly reduce the number of escape mutants. 
