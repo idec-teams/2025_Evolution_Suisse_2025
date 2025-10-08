@@ -33,21 +33,17 @@ The composition of the reactions varied depending on the complexity of the react
 | Final digestion  | 1  |50 | 10 min  |
 | Enzyme inactivation | 1   |80 |20 min  |
 
-Note: Try to use smaller vectors containing fewer inserts as reduced protein expression demands may exhibit higher transformation efficiency due to the reduced size and lower metabolic load on the cells.
+## PCR
 
-## Gibson Assembly
 1. PCR of all inserts and backbones to create appropriate overhangs 
 2. DpnI Digest: add 0.5 μL of DpnI to 25 μL PCR reaction, incubation 15 min at 37°C (to remove the template DNA)
-3. Gel extraction of the correct PCR products: Follow the protocol of the NucleoSpin Gel and PCR Clean-up kit (Macherey-Nagel)
-4. Mix 50–100 ng of vector DNA with a molar 2:1 or 1:1 ratio of each insert (see table below) 
-5. Add water and NEBuilider HiFi DNA Assembly Master Mix as indicated below
 
-| Reagent  | 2-3 Fragment Assembly |4-6 Fragment Assembly |
-| ------------- | ------------- | ------------- |
-| molar DNA ratio (vector:insert)  | 1:2  |1:1  |
-| total amounts of DNA fragments  | 0.03-0.2 pmol |0.2-0.5 pmol|
-| NEBuilider HiFi DNA Assembly Master Mix | 2.5 μl |2.5 μl |
-| ddH2O  | fill up to 5 μl |fill up to 5 μl |
 
-6. Incubate samples in a thermocycler at 50°C for 60 minutes 
+## Gibson Assembly
+Several designed plasmids required could not be assembled with Golden Gate cloning; therefore, Gibson assembly according to the following protocol was used:
+
+1. Desired plasmid digestion with a restriction enzyme of choice 
+2. Gel purification and extraction of the correct PCR products (1-2% Agarose gel, PCR Clean-up kit obtained from Zymo research)
+4. 50–100 ng of purified vector DNA with a 2:1 molar ratio of each insert to backbone ligated with T4 DNA Ligase (New England Biolabs)
+6. amples in a thermocycler at 50°C for 60 minutes 
 7. Store samples on ice or at –20°C for subsequent transformation
