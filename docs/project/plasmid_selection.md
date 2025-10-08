@@ -37,7 +37,7 @@ The screening plasmid expresses mGreenLantern under the control of a constitutiv
 
 After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cells, whereas, the non-targeted target-sequence showed < 1 % positive cells (Figure 2B), confirming target-specific inversion events. Similarly, we observed <1 % positive cells in the uninduced control in all conditions, except target 2 and 3, where we observed 2% positive cells at the 15 h time point. This is indicative of effective promoter repression in the absence of the inducer. Furthermore, we were only able to observe a change in fluorescent protein expression after 15 hours of induction, as there were <1 % mScarlet positive cells 2 hours after induction across all conditions. Lastly, flipping events were confirmed by Oxford Nanopore sequencing. Target 1 showed the highest activity and was selected as the primary target sequence from this point forward.
 
-![Flowcyto](../img/Flowcyto_data.png){width=0.6}Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+![Flowcyto](../img/Flowcyto_data.png)Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
 type donor and the targets identified within the SERPINA1 locus.**A** Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
 and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
