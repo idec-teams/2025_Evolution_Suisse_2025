@@ -105,15 +105,11 @@ These escape mutations represent a limit for the applicability of our system, as
 To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in Figure 5 should greatly reduce the number of escape mutants. 
 ##### quick explanation of CcdA system by Elia (?) or cite smth
 
-
-<figure markdown>
-  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/EscapeMutants_Solution.jpg" alt="toxinsystem" style="width:80%; display:block; margin:auto;">
-  <figcaption>Figure 5: Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
-of possible escape mutants. A Native configuration of the selection plasmid with the integrated CcdA/CcDB
-toxin/antitoxin system. Expression of CcdA suppresses CcdB toxicity.B Relocalization of the second promoter
-downstream of the cassette leads to loss of CcdA expression and cell death.</figcaption>
-</figure>
-
+![escapemutsolution](../img/EscapeMutants_Solution.jpg) 
+Figure 5: Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
+of possible escape mutants. **A** Native configuration of the selection plasmid with the integrated CcdA/CcDB
+toxin/antitoxin system. Expression of CcdA suppresses CcdB toxicity. **B** Relocalization of the second promoter
+downstream of the cassette leads to loss of CcdA expression and cell death.
 
 As a next step we aim to demonstrate inversion in the reverse direction (Kan --> Gm) following induction of
 the bRNA. Successful implementation of this step would enable continuous directed evolution. This could involve growing the bacteria in a continuous culture where the media is exchanged slowly overtime to contain different concentrations of the inducers and antibiotics used for selection. Alternately, non-continuous cultures can be used where the bacteria are subjected to iterative cycles of induction and selection.
