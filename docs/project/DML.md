@@ -23,7 +23,7 @@ Genetic variants of the ISCro4 are tested based on their inversion performance o
 The donor sequence is located in close proximity to the ISCro4 library variants. The presence or absence of an inversion event, given by the sequence after the donor CT core, can be directly linked to the sequence of the corresponding variant. This design enables direct assessment of both genotype and phenotype with deep short-read sequencing.
 
 <figure markdown>
-![DML Plasmid](../img/DML_Plasmid.png){width=0.6}
+![DML Plasmid](../img/DML_Plasmid.png){width=150}
 <figcaption> Figure 2: Plasmid encoding the logic for the efficiency assay of the ISCro4.
 </figcaption>
 </figure>
@@ -49,7 +49,7 @@ The six fragment pools were cloned using Golden Gate assembly into a plasmid cal
 Next, we transformed and cultured *E. coli* Marionette-Clo and sEM6 strains with pES071.2 (Figure 5). Both strains express *cinR^AM^* allowing OHC14-induced transcription of the PCin controlled bRNA. The resulting ISCro4-bRNA complex inverts the DNA sequence flanked by the target and donor sequences right after their CT core. This includes the ISCro4 gene.
 
 <figure markdown>
-![DML Assay](../img/DML_Assay.png)
+![DML Assay](../img/DML_Assay.png){width=150}
 <figcaption> Figure 5: Workflow scheme of the transformation and cultuvation of host strains.
 </figcaption>
 </figure>
@@ -57,7 +57,7 @@ Next, we transformed and cultured *E. coli* Marionette-Clo and sEM6 strains with
 After purifying pES071.2 from the cultivated bacteria, we performed Illumina library preparation to recover the screened variants and the inversion states. Primers with Nextera Transposase Adaptors, anneal to the plasmid to amplify the library fragment for subsequent sequencing (as indicated in Figure 2). Index Primer 1 (P1) anneals in the ISCro4 gene right before the start of the library fragments. Index Primer 2 anneals twice on the plasmid, before the target sequence (P2') and after the donor sequence (P2) on the reverse stand. The PCR results in a 362 bp long product, regardless of whether the plasmid sequence was the original, P1 - P2, or inverted, P1 - P2' (Figure 6). The PCR products of the original or inverted plasmids differ by the first 7 bp before the CT core in the donor or target region, as these nucleotides are not affected by the inversion. Therefore, the PCR products serve both as identifiers for the gene variant and as binary markers indicating whether an inversion has occurred. We amplified the PCR product a second time using Illumina DNA / RNA UD Indexes, gel and bead purified and submitted the samples for Illumina paired-end sequencing at the Genomics Facility Basel.
 
 <figure markdown>
-![DML Illumina Perparation](../img/DML_IlluminaPrep.png)
+![DML Illumina Perparation](../img/DML_IlluminaPrep.png){width=150}
 <figcaption> Figure 6: Logic of the Illumina Sequencing library preparation.
 </figcaption>
 </figure>
