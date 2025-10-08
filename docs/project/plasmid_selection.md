@@ -28,8 +28,8 @@ by regrowing cells in media containing Kan or Gm. Cells that have successfully r
 AB resistance and survive, cells that did not recombine die. This process promotes the survival of bacteria
 carrying more active IS621 variants.
 
-EcORep is a continuous DE method that allows DE of large DNA segments in E. coli [^EcORep]. EcORep uses genes
-from PRD1 phage to replicate a linear orthogonal replicon (O-Replicon) with an increased mutation rate[^].
+EcORep is a continuous DE method that allows DE of large DNA segments in *E. coli*. EcORep uses genes
+from PRD1 phage to replicate a linear orthogonal replicon (O-Replicon) with an increased mutation rate[^EcORep].
 We attempted to adapt EcORep as specified in Supplementary 6.2 and use it for the evolution of IS621. IS621
 is encoded on the O-replicon, which allows the generation of many variants in continuous culture. Expression
 of IS621 is controlled by the inducible PVanCC promoter. Cells that carry more active variants of IS621 are
@@ -110,12 +110,14 @@ Upon deletion KanR gene was placed under the control of the pTet promoter, which
 The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a promoter which leads to the expression of KanR and cell survival.
 
 ##### figure escape mutations 
+![[EscapeMutants]((https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73)
 
 These escape mutations represent a limit for the applicability of our system, as they allow cells to grow without the need for IS621-catalysed recombination.
 To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in figure xx should greatly reduce the number of escape mutants. 
 ##### quick explanation of CcdA system by Elia (?) or cite smth
 ##### figure CcdA
-
+![Introduction of the CcdA/CcdB toxin/antitoxin system ](![EscapeMutants_Solution](https://github.com/user-attachments/assets/c2c27f9d-9d59-4c66-b1a3-f6d503c3264d)
+)
 As a next step we aim to demonstrate inversion in the reverse direction (Kan --> Gm) following induction of
 the bRNA. Successful implementation of this step would enable continuous directed evolution. This could involve growing the bacteria in a continuous culture where the media is exchanged slowly overtime to contain different concentrations of the inducers and antibiotics used for selection. Alternately, non-continuous cultures can be used where the bacteria are subjected to iterative cycles of induction and selection.
 
