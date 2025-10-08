@@ -94,7 +94,18 @@ Two escape mutations were identified: large deletions as well as insertions of g
 Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette. 
 The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a promoter which leads to the expression of KanR and cell survival.
 
-##### figure escape mutations 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73" alt="EscapeMutants">
+</p>>
+<strong>Figure 4:</strong> <em>Schematic of escape mutants.</em> In the unmodified selection plasmid, the resistance cassette is under the
+control of only one promoter. Gene deletion <strong>(A)</strong>, off-target recombination or insertion of an exogenous gene
+sequence <strong>(B)</strong> may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
+formation of escape mutants. Escape mutants express GmR and KanR simultaneously and thus no longer need
+to flip the cassette for survival during selection. During our selection experiments we found two escape mutants.
+One showed a large deletion. Both bRNAs where absent from the plasmid and the KanR gene was under the
+control of the PTet promoter. The the other escape mutants carried a fragment of IS150. The IS150 fragment
+contains an additional promoter and supports KanR expression.
+</p>
 ![EscapeMutants](https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73)
 <figcaption>Figure 4: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
 control of only one promoter. Gene deletion (A), off-target recombination or insertion of an exogenous gene
