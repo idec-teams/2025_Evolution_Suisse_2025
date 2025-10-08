@@ -37,27 +37,24 @@ The screening plasmid expresses mGreenLantern under the control of a constitutiv
 
 After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cells, whereas, the non-targeted target-sequence showed < 1 % positive cells (Figure 2B), confirming target-specific inversion events. Similarly, we observed <1 % positive cells in the uninduced control in all conditions, except target 2 and 3, where we observed 2% positive cells at the 15 h time point. This is indicative of effective promoter repression in the absence of the inducer. Furthermore, we were only able to observe a change in fluorescent protein expression after 15 hours of induction, as there were <1 % mScarlet positive cells 2 hours after induction across all conditions. Lastly, flipping events were confirmed by Oxford Nanopore sequencing. Target 1 showed the highest activity and was selected as the primary target sequence from this point forward.
 
-<figure markdown>
-  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Flowcyto_data.png" alt="flowcyto" style="width:80%; display:block; margin:auto;">
-  <figcaption>Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
-type donor and the targets identified within the SERPINA1 locus.</em> <strong>A</strong> Schematic representation of the plasmids
+![Flowcyto](../img/Flowcyto_data.png){width=0.6}Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+type donor and the targets identified within the SERPINA1 locus.**A** Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
 and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
 are flanked by donor and target sequences to allow for IS621 + bRNA mediated flipping. pES055.2 contains
 IS621 followed by mTagBFP2 to facilitate the gating of cells bearing both plasmids. Induction with aTc leads
-to expression of the bRNA and therefore recombination. <strong>B</strong> Percentage of mScarlet3-positive cells over the
+to expression of the bRNA and therefore recombination. **B** Percentage of mScarlet3-positive cells over the
 number of cells expressing both IS621 recombinase and the fluorescent reporter plasmid. Marionette-Clo cells
 carrying plasmids pES049.2 and pES055.2 were either uninduced (blue) or induced (green) with 200 nM aTc
 for the indicated times before the analysis. Bars indicate mean values of three replicates, with individual data
 points shown. Each panel represents a different target sequence (1, 2 or 3). The non-targeting bRNA condition
 corresponds to cells carrying pES055.2 and pES049.2 bearing bRNA 1 and target sequence 2, serving as a
-negative control.</figcaption>
-</figure>
+negative control.
 
 
 ## Validation of the selection logic 
 To identify optimal induction and selection conditions for detecting IS621-mediated inversions, we screened
-nearly 100 conditions, with the most promising ones discussed below. We co-transformed the selection plasmid (pES013.2A) with a plasmid constitutively expressing IS621 (pES055.2). In this simplified model system, inversion is induced by the addition of aTc leading to the expression of the bRNA A. We first showed that the bacterial population maintains the selection plasmid in the absence of antibiotic selection by Gm or Kan in liquid culture over the course of 15 h (Figure 4 A). Based on this, we devised the induction scheme showed in Figure 3 C.
+nearly 100 conditions, with the most promising ones discussed below. We co-transformed the selection plasmid (pES013.2A) with a plasmid constitutively expressing IS621 (pES055.2). In this simplified model system, inversion is induced by the addition of aTc leading to the expression of the bRNA A. We first showed that the bacterial population maintains the selection plasmid in the absence of antibiotic selection by Gm or Kan in liquid culture over the course of 15 h (Figure 3 A). Based on this, we devised the induction scheme showed in Figure 3 C.
 
 
 The bacterial population was induced in late exponential phase (OD<sub>600</sub>O=0.6). We tested two different conditions: 
@@ -70,23 +67,19 @@ For each condition, controls in which bRNA expression was not induced were inclu
 Bacteria were grown for 15 hours after induction and then, those grown in absence of Kan were diluted into fresh media and grown for an additional 15 hours. This allowed for a longer induction period while minimizing cell death. 
 Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 3 D (i)).
 
-
-<figure markdown>
-  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="platingassay" style="width:80%; display:block; margin:auto;">
-  <figcaption>Figure 3: Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
-aTc.</em> <strong>A</strong> Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
-aTc. <strong>B</strong> Serial dilution droplet plating of the strain carrying
-pES055.2 and pES013.2A (see Figure 2) after 15 h growth in absence of Gm on Gm/Spec plates. <strong>C</strong> Schematic
+![Platingassay](../img/Plating_assay.png){width=0.6}Figure 3: Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
+aTc. **A** Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
+aTc. **B</strong** Serial dilution droplet plating of the strain carrying
+pES055.2 and pES013.2A (see Figure 2) after 15 h growth in absence of Gm on Gm/Spec plates. **C** Schematic
 representation of the induction and growth conditions of bacteria containing the selection plasmid and constitu-
 tively expressing IS621. The cells were induced with aTc at an OD<sub>600</sub>O=0.6=0.6 either in the absence or presence of
-Kan. The cultures #### all of them? ### were diluted in fresh media after 15 h and grown for an additional 15 h. <strong>D</strong> Bacte-
+Kan. The cultures were diluted in fresh media after 15 h and grown for an additional 15 h. **D** Bacte-
 rial growth on Kan/Spec plates after 0 h, 15 h and 30 hours after induction and antibiotic
 selection. (i) Serial dilution of the bacterial culture before induction, (ii) induced samples with their respective
 negative controls, sample and control indicated with coloured asterics (No selection with Kan in liquid cultures
 (cyan), with Kan in liquid culture (red)). Cultures grown with Kan were terminated after 15 h, (iii) induced
 samples grown in abscence of Kan for 30 h plated as droplets in duplicate. Black markings on plates indicate
-the position of bacterial droplet when plated.</figcaption>
-</figure>
+the position of bacterial droplet when plated.
 
 
 
