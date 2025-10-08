@@ -58,7 +58,7 @@ negative control.
 
 ## Validation of the selection logic 
 To identify optimal induction and selection conditions for detecting IS621-mediated inversions, we screened
-nearly 100 conditions, with the most promising ones discussed below. We co-transformed the selection plasmid (pES013.2A) with a plasmid constitutively expressing IS621 (pES055.2). In this simplified model system, inversion is induced by the addition of aTc leading to the expression of the bRNA A. We first showed that the bacterial population maintains the selection plasmid in the absence of antibiotic selection by Gm or Kan in liquid culture over the course of 15 h (Figure 4 A). Based on this, we devised the induction scheme showed in Figure 4 C.
+nearly 100 conditions, with the most promising ones discussed below. We co-transformed the selection plasmid (pES013.2A) with a plasmid constitutively expressing IS621 (pES055.2). In this simplified model system, inversion is induced by the addition of aTc leading to the expression of the bRNA A. We first showed that the bacterial population maintains the selection plasmid in the absence of antibiotic selection by Gm or Kan in liquid culture over the course of 15 h (Figure 4 A). Based on this, we devised the induction scheme showed in Figure 3 C.
 
 
 The bacterial population was induced in late exponential phase (OD<sub>600</sub>O=0.6). We tested two different conditions: 
@@ -69,7 +69,7 @@ The bacterial population was induced in late exponential phase (OD<sub>600</sub>
     
 For each condition, controls in which bRNA expression was not induced were included. 
 Bacteria were grown for 15 hours after induction and then, those grown in absence of Kan were diluted into fresh media and grown for an additional 15 hours. This allowed for a longer induction period while minimizing cell death. 
-Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 4 D (i)).
+Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 3 D (i)).
 
 <p align="center">
   <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="Flowcyto">
@@ -90,9 +90,9 @@ the position of bacterial droplet when plated.
 </p>
 
 Following this assay monoclonal cultures were grown and their DNA sequenced. While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some of the colonies grown in the presence of Kan.
-Two escape mutations were identified: large deletions as well as insertions of genomic host DNA (5). 
-Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette. 
-The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [29]. This fragment contains a promoter which leads to the expression of KanR and cell survival.
+Two escape mutations were identified: large deletions as well as insertions of genomic host DNA. 
+Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette (Figure 5 A). 
+The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [^trasposon]. This fragment contains a promoter which leads to the expression of KanR and cell survival (Figure 5 B).
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73" alt="EscapeMutants">
@@ -144,7 +144,9 @@ pp. 196–204, Feb. 2019, Publisher: Nature Publishing Group, issn: 1552-4469. d
 [^bridgeRecombinases]: M. G. Durrant, N. T. Perry, J. J. Pai, et al., “Bridge RNAs direct programmable recombination of target
 and donor DNA,” Nature, vol. 630, no. 8018, pp. 984–993, Jun. 2024, Epub 2024 Jun 26. doi: 10.1038/
 s41586-024-07552-4.
-
+[^trasposon]:M. Haas and B. Rak, “Escherichia coli insertion sequence is150: Transposition via circular and linear
+intermediates,” Journal of Bacteriology, vol. 184, no. 21, pp. 5833–5841, 2002. doi: 10.1128/JB.184.
+21.5833-5841.2002
 ## Add images:
 
 ![dummy image](img/dummy.png){ width=800px }
