@@ -42,8 +42,8 @@ After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cel
 
 <figure markdown>
 ![Flowcyto](../img/Flowcyto_data.png)
-<figcaption>Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
-type donor and the targets identified within the SERPINA1 locus.<strong>A</strong> Schematic representation of the plasmids
+<figcaption> Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+type donor and the targets identified within the SERPINA1 locus. <strong>A</strong> Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
 and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
 are flanked by donor and target sequences to allow for IS621 + bRNA mediated flipping. pES055.2 contains
@@ -76,7 +76,7 @@ Notably, some bacterial colonies were already able to grow on Kan plates before 
 
 <figure markdown>
 ![Platingassay](../img/Plating_assay.png) 
-<figcaption>Figure 3: Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
+<figcaption> Figure 3: Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc. <strong>A</strong> Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc. <strong>B</strong> Serial dilution droplet plating of the strain carrying
 pES055.2 and pES013.2A (see Figure 2) after 15 h growth in absence of Gm on Gm/Spec plates. **C** Schematic
@@ -101,7 +101,7 @@ The second escape mutation we observed was a partial insertion of the transposab
 
 <figure markdown>
 ![escapemut](../img/EscapeMutants.jpg) 
-<figcaption>Figure 4: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
+<figcaption> Figure 4: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
 control of only one promoter. Gene deletion <strong>A</strong>, off-target recombination or insertion of an exogenous gene
 sequence <strong>B</strong> may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
 formation of escape mutants. Escape mutants express GmR and KanR simultaneously and thus no longer need
@@ -117,7 +117,7 @@ To counteract this, we have devised an experimental strategy which aims to reduc
 
 <figure markdown>
 ![escapemutsolution](../img/EscapeMutants_Solution.jpg) 
-<figcaption>Figure 5: Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
+<figcaption> Figure 5: Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
 of possible escape mutants. <strong>A</strong> Native configuration of the selection plasmid with the integrated CcdA/CcDB
 toxin/antitoxin system. Expression of CcdA suppresses CcdB toxicity. <strong>B</strong> Relocalization of the second promoter
 downstream of the cassette leads to loss of CcdA expression and cell death.
