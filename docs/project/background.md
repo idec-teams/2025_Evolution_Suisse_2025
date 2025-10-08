@@ -31,9 +31,8 @@ Because their targeting is dictated by RNA–DNA pairing, bridge recombinases ar
 So far two bridge recombinases, IS621 and ISCro4, have been characterized. They share about 88% sequence identity, suggesting that many other natural variants likely exist, some potentially even more efficient. Both of these enzymes have shown that RNA-guided recombination works reliably: IS621 functions well in bacteria, and ISCro4 in mammalian cells. Together, they define a new and powerful class of RNA-programmable genome editors that could overcome many limitations of existing technologies [^bridge_1].
 
 <figure markdown>
-![ISCro4](https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/ISCro4.png)
-<figcaption> Figure 3: ISCro4 Bridge Recombinase (Source: Own Figure)
-</figcaption>
+  <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Recombination_mechanism.jpg" alt="ISCro4" style="width:60%; display:block; margin:auto;">
+  <figcaption>Figure 3: ISCro4 Bridge Recombinase (Source: Own Figure)</figcaption>
 </figure>
 
 ## Alpha-1 Antitrypsin Deficiency as a Proof of Concept

@@ -1,0 +1,145 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>SEM6 :: BRESEQ :: Evidence</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<!--Output Html_Mutation_Table_String-->
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="7" align="left" class="mutation_header_row">Predicted mutation</th></tr><tr>
+<th>evidence</th>
+<th>seq&nbsp;id</th>
+<th>position</th>
+<th>mutation</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">description</th>
+</tr>
+
+<!-- Item Lines -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="MC_PLOT_12.html">MC</a>&nbsp;<a href="JC_29.html">JC</a></td><!-- Evidence -->
+<td align="center">NEB10&#8209;beta_marionett</td><!-- Seq_Id -->
+<td align="right">1,158,915</td><!-- Position -->
+<td align="center">4443&nbsp;bp&rarr;GAAGTTCCTATTCTCTAGAAAGTATAGGAACTTC</td><!-- Cell Mutation -->
+<td align="center"></td>
+<td align="center"><i>[csgG CDS (curli production assembly_transport protein CsgG)]</i>&#8211;<i>[csgC CDS (curli assembly protein CsgC)]</i></td>
+<td align="left"><i>[csgG CDS (curli production assembly_transport protein CsgG)]</i>, <i>csgF CDS (curli production assembly_transport protein CsgF)</i>, <i>csgE CDS (curli production assembly_transport protein CsgE)</i>, <i>csgD CDS (transcriptional regulator CsgD)</i>, <i>csgB CDS (curlin minor subunit CsgB)</i>, <i>csgA CDS (curlin major subunit CsgA)</i>, <i>[csgC CDS (curli assembly protein CsgC)]</i></td>
+</tr>
+<!-- End Table Row -->
+</table><p>
+<table border="0" cellspacing="1" cellpadding="3" width="100%">
+<tr><th colspan="11" align="left" class="missing_coverage_header_row">Missing coverage evidence...</th></tr>
+<tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>seq&nbsp;id</th>
+<th>start</th>
+<th>end</th>
+<th>size</th>
+<th>&larr;reads</th>
+<th>reads&rarr;</th>
+<th>gene</th>
+<th width="100%">description</th>
+</tr>
+<tr>
+<td><a href="MC_SIDE_1_12.html">*</a></td>
+<td><a href="MC_SIDE_2_12.html">*</a></td>
+<td><a href="MC_PLOT_12.html">&divide;</a></td>
+<td>NEB10&#8209;beta_marionett</td>
+<td align="right">1158915</td>
+<td align="right">1163357</td>
+<td align="right">4443</td>
+<td align="center">21&nbsp;[0]</td>
+<td align="center">[0]&nbsp;21</td>
+<td align="center"><i>[csgG&nbsp;CDS&nbsp;(curli&nbsp;production&nbsp;assembly_transport&nbsp;protein&nbsp;CsgG)]&#8211;[csgC&nbsp;CDS&nbsp;(curli&nbsp;assembly&nbsp;protein&nbsp;CsgC)]</i></td>
+<td align="left">[csgG CDS (curli production assembly_transport protein CsgG)],csgF CDS (curli production assembly_transport protein CsgF),csgE CDS (curli production assembly_transport protein CsgE),csgD CDS (transcriptional regulator CsgD),csgB CDS (curlin minor subunit CsgB),csgA CDS (curlin major subunit CsgA),[csgC CDS (curli assembly protein CsgC)]</td>
+</tr>
+</table>
+<p><table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="12" align="left" class="new_junction_header_row">New junction evidence</th></tr>
+<!-- Header Lines for New Junction -->
+<tr>
+<th colspan="2">&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th>position</th>
+<th>reads&nbsp;(cov)</th>
+<th>reads&nbsp;(cov)</th>
+<th>score</th>
+<th>skew</th>
+<th>freq</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">product</th>
+</tr>
+
+<!-- Item Lines for New Junction -->
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="JC_29.html">*</a></td>
+<td rowspan="1"><a href="JC_SIDE_1_29.html">?</a></td>
+<td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">=&nbsp;1158914</td><td align="center" class="junction_gene">0 (0.000)</td><td rowspan="2" align="center">17 (1.140)<br>+GAAGTTCCTATTCTCTAGAAAGTATAGGAACTTC</td>
+<td rowspan="2" align="center">15/326</td>
+<td rowspan="2" align="center">0.2</td>
+<td rowspan="2" align="center">100%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(+63/+1)</td>
+<td align="center" class="junction_gene"><i>HO394_05560&nbsp;CDS&nbsp;(DUF1097&nbsp;domain&#8209;containing&nbsp;protein)/csgG&nbsp;CDS&nbsp;(curli&nbsp;production&nbsp;assembly_transport&nbsp;protein&nbsp;CsgG)</i></td>
+<td class="junction_gene">HO394_05560 CDS (DUF1097 domain&#8209;containing protein)/csgG CDS (curli production assembly/transport protein CsgG)</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="JC_SIDE_2_29.html">?</a></td><td rowspan="1" class="junction_gene">NEB10&#8209;beta_marionett</td>
+<td align="center" class="junction_gene">1163358&nbsp;=</td>
+<td align="center" class="junction_gene">0 (0.000)</td><td align="center" class="junction_gene">intergenic&nbsp;(+1/&#8209;120)</td>
+<td align="center" class="junction_gene"><i>csgC&nbsp;CDS&nbsp;(curli&nbsp;assembly&nbsp;protein&nbsp;CsgC)/HO394_05600&nbsp;CDS&nbsp;(type&nbsp;1&nbsp;fimbrial&nbsp;protein)</i></td>
+<td class="junction_gene">csgC CDS (curli assembly protein CsgC)/HO394_05600 CDS (type 1 fimbrial protein)</td>
+</tr>
+</table>
+<p><div align="left"><img src="NEB10-beta_marionett_1158915-1163357.png" width=800 /></div></body></html>
