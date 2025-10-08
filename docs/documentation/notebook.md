@@ -32,18 +32,20 @@
 ## July
 
 + Deletion of the csg operon in Marionette-Clo _E. Coli_ strain to obtain SEM6 _E.Coli_, a strain that will be used for further transformations in course of the project
-+ Fluorescence based efficiency assay (GFP-mScarlet inversion) to determine the initial efficiency of bridge recombinases towards selected target and donor sequences 
++ Fluorescence based efficiency assay (GFP-mScarlet inversion, GFP insertion) to determine the initial efficiency of bridge recombinases towards selected target and donor sequences 
 
 ## August
 
 + DML variant preparation
 + Illumina sequencing
 + Preliminary design of the selection plasmid antibiotic-based functionality assay 
++ Phage cloning
 
 ## September
 
 + Plating assay to determine the functionality of the designed selection plasmid  
 + Report preparation
++ Phage propagation assay
 
 ## October
 
