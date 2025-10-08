@@ -25,6 +25,8 @@ dsDNA substrate is 1.5 kb. This is seen in C2, thus confirming the successful in
 
 ## Genomeseq
 
+Validation by genomeseq.
+
 
 [^jensen_1]: S. I. Jensen, R. M. Lennen, M. J. Herrgård, and A. T. Nielsen, “Seven gene deletions in seven days: Fast generation of escherichia coli strains tolerant to acetate and osmotic stress,” Scientific Reports, vol. 5, no. 17874, 2016. doi: 10.1038/srep17874.
 [^meyer_2]: A. J. Meyer, T. H. Segall-Shapiro, E. Glassey, J. Zhang, and C. A. Voigt, “Escherichia coli “Marionette” strains with 12 highly optimized small-molecule sensors,” en, Nature Chemical Biology, vol. 15, no. 2, pp. 196–204, Feb. 2019, Publisher: Nature Publishing Group, issn: 1552-4469. doi: 10.1038/s41589-018-0168-3. (visited on 04/12/2025).

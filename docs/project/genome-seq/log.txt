@@ -1,0 +1,4 @@
+Wed Oct  8 16:46:02 2025
+
+breseq -o neb10-beta-marionette -x -n SEM6 -r neb10-beta-marionette.gb ESM6-isolation-2-01.rawreads.fastq.gz
+
