@@ -52,11 +52,12 @@ nav:
   - Home: index.md
   - Team: team.md
   - Project:
-      - Recombineering sEM6: project/recombineering.md
       - Background: project/background.md
-      - Plasmid-based selection system for evolving bridge recombinases: project/plasmid_selection.md
-      - Phage-assisted evolution of bridge recombinases: project/PACE.md
       - Deep Mutational Learning of bridge recombinases: project/DML.md
+      - Plasmid-based selection system for evolving bridge recombinases: project/plasmid_selection.md
+      - Recombineering sEM6: project/recombineering.md
+      - Phage-assisted evolution of bridge recombinases: project/PACE.md
+
   - Documentation:
       - Protocols: documentation/protocols.md
       - Lab notebook: documentation/notebook.md

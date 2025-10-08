@@ -1,7 +1,11 @@
 # PACE
 ## System for phage-assisted evolution of bridge recombinases
-
+<figure markdown>
 ![](../img/PACE_evolution_logic.jpg)
+<figcaption> Figure 1: Evolution logic for PACE.
+</figcaption>
+</figure>
+
 
 *Overview of phage-assisted continuous evolution (PACE) for bridge recombinase ISCro4:* 
 Selection phage (SP) carries the evolving ISCro4 recombinase but lacks *gIII*, which encodes the essential coat protein pIII. The host *E. coli* harbours three plasmids: (i) an accessory plasmid (AP) containing the target site plus *gIII* and a luciferase reporter that are promoterless; (ii) a complementary plasmid (CP) expressing the bRNA and donor sequence under an upstream promoter; and (iii) a mutagenesis plasmid (MP) [^PACE]. Upon successful insertion, the CP promoter is positioned immediately upstream of *gIII* (and luciferase), which drives pIII expression and enables replication of SPs encoding active recombinase variants. PACE is conducted in a fixed-volume “lagoon” with continuous dilution by fresh host cells, so only SPs that replicate faster than the dilution rate persist and evolve; ongoing mutation from the MP diversifies progeny for subsequent rounds of selection.
