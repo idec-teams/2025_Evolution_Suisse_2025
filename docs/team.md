@@ -115,4 +115,4 @@ hide:
 ---
 # Acknowledgements
 
-We want to express our sincere gratitude to all people who contributed to the successful execution of this project. We are thankful to Professor Professor Nash for hosting us in his lab and for facilitating access to the resources necessary for this research. Special thanks go to Lorenz Widmer for his invaluable feedback and guidance throughout the project. We are grateful to Philip Nitsch for his helping hand in the PACE project.
+We want to express our sincere gratitude to all people who contributed to the successful execution of this project. We are thankful to Professor Michael Nash for hosting us in his lab and for facilitating access to the resources necessary for this research. Special thanks go to Lorenz Widmer for his invaluable feedback and guidance throughout the project. We are grateful to Philip Nitsch for his helping hand in the PACE project.
