@@ -41,7 +41,7 @@ After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cel
 
 <figure markdown>
   <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Flowcyto_data.png" alt="flowcyto" style="width:80%; display:block; margin:auto;">
-  <figcaption>Figure 2: low cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+  <figcaption>Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
 type donor and the targets identified within the SERPINA1 locus.</em> <strong>A</strong> Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
 and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
@@ -97,17 +97,19 @@ Two escape mutations were identified: large deletions as well as insertions of g
 Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette (Figure 5 A). 
 The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [^trasposon]. This fragment contains a promoter which leads to the expression of KanR and cell survival (Figure 5 B).
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73" alt="EscapeMutants">
-</p> 
-<strong>Figure 4:</strong> <em>Schematic of escape mutants.</em> In the unmodified selection plasmid, the resistance cassette is under the
+
+<figure markdown>
+  <img src="https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73" alt="escape mutants" style="width:80%; display:block; margin:auto;">
+  <figcaption>Figure 4: Schematic of escape mutants.</em> In the unmodified selection plasmid, the resistance cassette is under the
 control of only one promoter. Gene deletion <strong>(A)</strong>, off-target recombination or insertion of an exogenous gene
 sequence <strong>(B)</strong> may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
 formation of escape mutants. Escape mutants express GmR and KanR simultaneously and thus no longer need
 to flip the cassette for survival during selection. During our selection experiments we found two escape mutants.
 One showed a large deletion. Both bRNAs where absent from the plasmid and the KanR gene was under the
 control of the PTet promoter. The the other escape mutants carried a fragment of IS150. The IS150 fragment
-contains an additional promoter and supports KanR expression.
+contains an additional promoter and supports KanR expression.</figcaption>
+</figure>
+
 
 
 These escape mutations represent a limit for the applicability of our system, as they allow cells to grow without the need for IS621-catalysed recombination.
