@@ -5,7 +5,7 @@ recombinase is located on a different plasmid or orthogonal replicon. This syste
 [^EcORep]. Selection of variants with higher activity occurs as follows: the selection plasmid carries two bRNAs under the control of inducible promoters (Figure 1 A) and a cassette encoding two antibiotic resistance genes facing in opposite directions. This cassette can be inverted via bRNA-mediated recombination. Only one of the resistance genes is expressed in each of the orientations of the cassette. Therefore, it is possible to select for successful inversion of the cassette using antibiotics (Figure 1 B). This allows for the enrichment of recombinase variants with increased activity over time. Expression of bRNA A can be induced by the addition of anhydrotetracycline (aTc) and results in inversion of the cassette from its initial orientation (gentamycin (Gm) →kanamycin (Kan)). Expression of bRNA B is induced using N-(3-Hydroxytetradecanoyl)-DL-homoserine lactone (OHC14) and mediates the reverse process (Kan →Gm)
 
 
-![Color_coded_Whole_Cell_View](../img/Color_coded_Whole_Cell_View.jpeg){width=0.6} Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
+![Color_coded_Whole_Cell_View](../img/Color_coded_Whole_Cell_View.jpeg) Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
 plasmid in an *E. coli* cell. The mutagenesis plasmid carries the genes necessary for replicating the O-Replicon.
 The O-Replicon carries IS621 under the control of the inducible PVanCC promoter. The selection plasmid
 contains a casette with two antibiotic resistances, Gm resistance (GmR) and Kan resistance (KanR) facing in
