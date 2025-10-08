@@ -1,19 +1,43 @@
 # Phlasmid-based selection system for evolving bridge recombinases
 ## Evolutionary strategy and plasmid design
-We designed an evolution logic that allows for the selection of improved bridge recombinases in *E. coli*. 
+We designed an evolution logic that allows for the selection of improved bridge recombinases in *E. coli* (Fig-
+ure 2). All components necessary for selection are contained on a single ”selection plasmid” while the bridge
+recombinase is located on a different plasmid or orthogonal replicon. This system is adaptable to several contin-
+uous DE methods such as MutaT7 [^MutaT7], T7-ORACLE[^T7-ORACLE] and E. coli orthogonal replication system (EcORep)
+[^EcORep]. Selection of variants with higher activity occurs as follows: the selection plasmid carries two bRNAs
+under the control of inducible promoters (Figure 2 A) and a cassette encoding two antibiotic resistance genes
+facing in opposite directions. This cassette can be inverted via bRNA-mediated recombination. Only one of
+the resistance genes is expressed in each of the orientations of the cassette. Therefore, it is possible to select for
+successful inversion of the cassette using antibiotics (2). This allows for the enrichment of recombinase variants
+with increased activity over time. Expression of bRNA A can be induced by the addition of anhydrotetracycline
+(aTc) and results in inversion of the cassette from its initial orientation (gentamycin (Gm) →kanamycin (Kan)).
+Expression of bRNA B is induced using N-(3-Hydroxytetradecanoyl)-DL-homoserine lactone (OHC14) and
+mediates the reverse process (Kan →Gm)
+
 ![Color_coded_Whole_Cell_View_3](https://github.com/user-attachments/assets/4b06a5a7-0665-4d57-95cd-71e48d96d1e4)
-<figcaption>Figure 1: DE of IS621 using EcORep. A depicts the mutagenesis plasmid, the O-Replicon and the selection
+<figcaption>Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
 plasmid in an E. coli cell. The mutagenesis plasmid carries the genes necessary for replicating the O-Replicon.
 The O-Replicon carries IS621 under the control of the inducible PVanCC promoter. The selection plasmid
 contains a casette with two antibiotic resistances, Gm resistance (GmR) and Kan resistance (KanR) facing in
 opposite directions. Depending on the orientation of the cassette, either GmR or KanR is transcribed. The
 cassette is flanked by donor and target sequences facing each other. This allows for IS621 + bRNA mediated
-inversion. B depicts the selection process. Cells are grown in LB liquid culture. IS621 expression is induced
+inversion. **B** depicts the selection process. Cells are grown in LB liquid culture. IS621 expression is induced
 using vanillic acid (Van). Shortly before stationary phase, bRNA expression is induced by addition of aTc for
 bRNA A or OHC14 for bRNA B. Presence of IS621 + bRNA promotes recombination. Selection is performed
 by regrowing cells in media containing Kan or Gm. Cells that have successfully recombined express the correct
 AB resistance and survive, cells that did not recombine die. This process promotes the survival of bacteria
 carrying more active IS621 variants.
+
+EcORep is a continuous DE method that allows DE of large DNA segments in E. coli [^EcORep]. EcORep uses genes
+from PRD1 phage to replicate a linear orthogonal replicon (O-Replicon) with an increased mutation rate[^].
+We attempted to adapt EcORep as specified in Supplementary 6.2 and use it for the evolution of IS621. IS621
+is encoded on the O-replicon, which allows the generation of many variants in continuous culture. Expression
+of IS621 is controlled by the inducible PVanCC promoter. Cells that carry more active variants of IS621 are
+more likely to recombine during the time interval between bRNA induction and antibiotic (AB) addition. This
+results in enrichment of bacteria carrying more active recombinase variants.
+
+
+
 
 ## Target Sequence Selection
 As our proof-of-concept is to optimize bridge recombinase activity for AATD treatment, we identified three candidate target sequences (target 1-3) within the SERPINA1 locus. The targets were selected following these criteria: 
@@ -98,17 +122,18 @@ the bRNA. Successful implementation of this step would enable continuous directe
 
     
 ## Markdown footnotes for citations
-
-Reference: [squidfunk.github.io/mkdocs-material/reference/data-tables/](https://squidfunk.github.io/mkdocs-material/reference/footnotes/)
-
-All footnotes will appear at the end of the page. For example:
-
-The International Directed Evolution Competition (iDEC)[^1] is an international competition on directed evolution[^2].
-
-[^1]: [iDEC Website About Us Page](https://idec.io/pages/about_us.html)
-[^2]:
-    This is not a real citation.  
-    Multiple line footnote is supported.
+[^MutaT7]: A. A. Mengiste, J. L. McDonald, M. T. Nguyen Tran, et al., “MutaT7GDE: A Single Chimera for the
+Targeted, Balanced, Efficient, and Processive Installation of All Possible Transition Mutations In Vivo,”
+ACS Synthetic Biology, vol. 13, no. 9, pp. 2693–2701, Sep. 2024, Publisher: American Chemical Society.
+doi: 10.1021/acssynbio.4c00316. (visited on 04/30/2025).
+[^T7-ORACLE]: C. S. Diercks, P. Sondermann, C. Rong, et al., “An orthogonal T7 replisome for continuous hypermutation
+and accelerated evolution in E. coli,” Science, vol. 389, no. 6760, pp. 618–622, Aug. 2025, Publisher:
+American Association for the Advancement of Science. doi: 10.1126/science.adp9583. (visited on
+09/19/2025).
+[^EcORep]: R. Tian, F. B. H. Rehm, D. Czernecki, et al., “Establishing a synthetic orthogonal replication system
+enables accelerated evolution in E. coli,” Science, vol. 383, no. 6681, pp. 421–426, Jan. 2024, Publisher:
+American Association for the Advancement of Science. doi: 10.1126/science.adk1281. (visited on
+05/21/2025).
 
 ## Add images:
 
