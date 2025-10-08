@@ -72,10 +72,10 @@ For each condition, controls in which bRNA expression was not induced were inclu
 Bacteria were grown for 15 hours after induction and then, those grown in absence of Kan were diluted into fresh media and grown for an additional 15 hours. This allowed for a longer induction period while minimizing cell death. 
 Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 3 D (i)).
 
-<p align="center">
-  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="Plating">
-</p>
-<strong>Figure 3:</strong> <em>Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
+
+<figure markdown>
+  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="platingassay" style="width:80%; display:block; margin:auto;">
+  <figcaption>Figure 3: Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc.</em> <strong>A</strong> Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc. <strong>B</strong> Serial dilution droplet plating of the strain carrying
 pES055.2 and pES013.2A (see Figure 2) after 15 h growth in absence of Gm on Gm/Spec plates. <strong>C</strong> Schematic
@@ -87,7 +87,9 @@ selection. (i) Serial dilution of the bacterial culture before induction, (ii) i
 negative controls, sample and control indicated with coloured asterics (No selection with Kan in liquid cultures
 (cyan), with Kan in liquid culture (red)). Cultures grown with Kan were terminated after 15 h, (iii) induced
 samples grown in abscence of Kan for 30 h plated as droplets in duplicate. Black markings on plates indicate
-the position of bacterial droplet when plated.
+the position of bacterial droplet when plated.</figcaption>
+</figure>
+
 
 
 Following this assay monoclonal cultures were grown and their DNA sequenced. While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some of the colonies grown in the presence of Kan.
