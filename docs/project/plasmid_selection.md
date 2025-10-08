@@ -99,8 +99,8 @@ The second escape mutation we observed was a partial insertion of the transposab
 
 
 <figure markdown>
-  <img src="https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73" alt="escape mutants" style="width:80%; display:block; margin:auto;">
-  <figcaption>Figure 4: Schematic of escape mutants.</em> In the unmodified selection plasmid, the resistance cassette is under the
+  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/EscapeMutants.jpg" alt="escape mutants" style="width:80%; display:block; margin:auto;">
+<figcaption>Figure 4: Schematic of escape mutants.</em> In the unmodified selection plasmid, the resistance cassette is under the
 control of only one promoter. Gene deletion <strong>(A)</strong>, off-target recombination or insertion of an exogenous gene
 sequence <strong>(B)</strong> may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
 formation of escape mutants. Escape mutants express GmR and KanR simultaneously and thus no longer need
@@ -115,13 +115,15 @@ contains an additional promoter and supports KanR expression.</figcaption>
 These escape mutations represent a limit for the applicability of our system, as they allow cells to grow without the need for IS621-catalysed recombination.
 To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in Figure 5 should greatly reduce the number of escape mutants. 
 ##### quick explanation of CcdA system by Elia (?) or cite smth
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c2c27f9d-9d59-4c66-b1a3-f6d503c3264d" alt="toxinsystem">
-</p> 
-<strong>Figure 5:</strong> <em>Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
-of possible escape mutants.</em> <strong>A</strong> Native configuration of the selection plasmid with the integrated CcdA/CcDB
-toxin/antitoxin system. Expression of CcdA suppresses CcdB toxicity.<strong>B</strong>Relocalization of the second promoter
-downstream of the cassette leads to loss of CcdA expression and cell death.
+
+
+<figure markdown>
+  <img src="https://github.com/user-attachments/assets/c2c27f9d-9d59-4c66-b1a3-f6d503c3264d" alt="toxinsystem" style="width:80%; display:block; margin:auto;">
+  <figcaption>Figure 5: Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
+of possible escape mutants. A Native configuration of the selection plasmid with the integrated CcdA/CcDB
+toxin/antitoxin system. Expression of CcdA suppresses CcdB toxicity.B Relocalization of the second promoter
+downstream of the cassette leads to loss of CcdA expression and cell death.</figcaption>
+</figure>
 
 
 As a next step we aim to demonstrate inversion in the reverse direction (Kan --> Gm) following induction of
