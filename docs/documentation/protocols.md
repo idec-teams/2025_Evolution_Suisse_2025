@@ -62,7 +62,7 @@ The composition of the reactions varied depending on the complexity of the react
 
 
 ## Gibson Assembly
-Several designed plasmids required could not be assembled with Golden Gate cloning; therefore, Gibson assembly according to the following protocol was used:
+When the plasmid deaign did not allow for Golden Gate assembly, Gibson assembly was performed according to the following protocol:
 
 1. Desired plasmid digestion with a restriction enzyme of choice 
 2. Gel purification and extraction of the correct PCR products (1-2% Agarose gel, PCR Clean-up kit obtained from Zymo research)
