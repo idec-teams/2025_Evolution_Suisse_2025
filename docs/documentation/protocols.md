@@ -7,7 +7,7 @@
 + Zyppy Plasmid Miniprep Kit (Zymo research) was used for plasmid isolation from bacterial cultures according to the protocol provided by the manufacturer.
 + All DNA fragments for the experiments were codon optimised for _E. coli_, synthesised and ordered from Twist Bioscience.
 + Oligonucleotide primers for cloning and sequencing were ordered from Microsynth.
-+ All DNA was stored at -20ºC at a concentration of 40 pM 
++ All DNA was stored at -20ºC at a concentration of 40 pM.
 
 ## Cloning
 
@@ -24,7 +24,7 @@ The composition of the reactions varied depending on the complexity of the react
 | PaqCI activator (if required)  | 0.25-0.5 μl |
 | ddH2O  | fill up to 21 μl |
 
-2. The following protocol was used in the thermocycler for all golden gate cloning:
+2. The following protocol was used in the thermocycler for all Golden Gate cloning:
  
 
 
