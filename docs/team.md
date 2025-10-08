@@ -30,7 +30,7 @@ hide:
 
 
   <div class="image-item">
-    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/daria.jpeg" alt="Daria" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/dariaaa.jpeg" alt="Daria" style="height:300px;width:300px">
     <span> Daria Belous <br>
       Master's student, ETH Zürich
       <br>
