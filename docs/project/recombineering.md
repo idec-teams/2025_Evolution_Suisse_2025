@@ -2,7 +2,7 @@
 
 ## Background
 
-Bacteria can form biofilms theese biofilms can potentially interfere with our directed evolution efforts. The csg operon was deleted to prevent biofilm formation [^yan_3]. The deletion was done using lambda red recombineering as described here [^jensen_1].
+Bacteria can form biofilms which can potentially interfere with our directed evolution efforts. The csg operon was deleted to prevent biofilm formation [^yan_3]. The deletion was done using lambda red recombineering as described here [^jensen_1].
 
 ## How it was done
 
