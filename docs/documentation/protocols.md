@@ -5,7 +5,8 @@
 + All restriction enzymes were obtained from New England Biolabs. The workflow was executed accordring to the instructions provided by the manufacturer.
 + Zyppy Plasmid Miniprep Kit (Zymo research) was used for plasmid isolation from bacterial cultures according to the protocol provided by the manufacturer.
 + All DNA fragments for the experiments were codon optimised for _E. coli_, synthesised and ordered from Twist Bioscience.
-+ Oligonucleotide primers for cloning and sequencing were ordered from Microsynth. 
++ Oligonucleotide primers for cloning and sequencing were ordered from Microsynth.
++ All DNA was stored at -20ºC at a concentration of 40 pM 
 
 ## Cloning
 
@@ -44,6 +45,6 @@ Several designed plasmids required could not be assembled with Golden Gate cloni
 
 1. Desired plasmid digestion with a restriction enzyme of choice 
 2. Gel purification and extraction of the correct PCR products (1-2% Agarose gel, PCR Clean-up kit obtained from Zymo research)
-4. 50–100 ng of purified vector DNA with a 2:1 molar ratio of each insert to backbone ligated with T4 DNA Ligase (New England Biolabs)
-6. amples in a thermocycler at 50°C for 60 minutes 
-7. Store samples on ice or at –20°C for subsequent transformation
+3. 50–100 ng of purified vector DNA with a 2:1 molar ratio of each insert to backbone ligated with T4 DNA Ligase (New England Biolabs)
+6. Samples incubation in a thermocycler (30ºC - 16ºC cycle to improve ligation eficiency)
+
