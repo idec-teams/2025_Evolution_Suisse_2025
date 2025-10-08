@@ -2,11 +2,11 @@
 
 ## Background
 
-Bacteria can form biofilms theese biofilms can potentially interfere with our directed evolution efforts. The csg operon was deleted to prevent biofilm formation [^yan_3]. The deletion was done using lambda red recombineering as described here [^jensen_1].
+Bacteria can form biofilms which can potentially interfere with our directed evolution efforts. The csg operon was deleted by lambda red recombineering as previously described [^yan_3].
 
 ## How it was done
 
-The strain was generated using lambda red recombineering using pSIJ8 [^jensen_1] to delete the csg operon from Marionette-Clo (sAJM.1504) [^meyer_2].  Fresh cultures of Marionette-Clo were grown to an OD600 of 0.3 and then induced with 15 mM L-arabinose (final concentration) for an hour. Subsequently the cells were made electrocompetent. The linear dsDNA (see Table 2) was electroporated in to the cells. Then they were recovered and plated. Six colonies were picked the following day and liquid cultures were set up. Finally the fliptase was induced in theese liquid cultures with 50 mM L-rhamnose (final concentration) and grown at 38°C to cure pSIJ8. The deletion was validated using colony PCR . The cultures from the single colonies are designated S1-S6 (see Figure 13).
+The strain was generated using lambda red recombineering using pSIJ8 [^jensen_1] to delete the csg operon from Marionette-Clo (sAJM.1504) [^meyer_2].  Fresh cultures of Marionette-Clo were grown to an OD600 of 0.3 and then induced with 15 mM L-arabinose (final concentration) for one hour. Subsequently, the cells were made electrocompetent and the linear dsDNA was electroporated in to the cells. Then they were recovered and plated on double antibiotic plates (Amp and Kan). The following day six liquid cultures were innoculated from six differnt clones. Fliptase was induced with 50 mM L-rhamnose and the culturs were grown at 38°C for 4-6 hours to cure pSIJ8. The deletion was validated with colony PCR . The cultures from the single colonies are designated S1-S6 (see Figure 13).
 
 
 ## Validation by qPCR
@@ -17,8 +17,7 @@ The strain was generated using lambda red recombineering using pSIJ8 [^jensen_1]
 </figcaption>
 </figure>
 
-1% agarose gel of a colony PCR done with the csg primers (see Table2). S1-S6 as described in
-methods. Lanes L are ladders made with NEB 1kb plus. C1 is Marionette-Clo. C2 is a sample before the
+1% agarose gel of a colony PCR done with the csg primers. S1-S6 are different monoclonal cultures. Lanes L are NEB 1kb plus DNA ladder. C1 is Marionette-Clo. C2 is a sample before the
 induction of the fliptase. The amplicon size for the csg primer pair in Marionette-Clo is 4.8 kb. This matches
 well with lane C1. Validating that the primers work. The amplicon size for Marionette-Clo with the integrated
 dsDNA substrate is 1.5 kb. This is seen in C2, thus confirming the successful integration of the dsDNA substrate. After the resistance cassette is flipped out, the amplicon is expected to be roughly 400 bp. This can be observed in S1-S6. Meaning that the deletion has successfully worked.

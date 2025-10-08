@@ -48,7 +48,7 @@ hide:
     <span> Etienne Mathier <br>
       Master's student, ETH Zürich
       <br>
-       Can make strains and control liquid nitrogen (but can't win against Saskia in dance battle) </span>
+       Can make strains and is cooler than liquid nitrogen (but can't win beat Saskia in dance battles). </span>
   </div>
 
   
@@ -62,7 +62,7 @@ hide:
 
 
   <div class="image-item">
-    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/saskia.jfif" alt="Saskia" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/Saskia_Gerecke.jpg" alt="Saskia" style="height:300px;width:300px">
     <span> Saskia Gerecke <br>
       Master's student, UZH
       <br>

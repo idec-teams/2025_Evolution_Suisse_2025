@@ -11,7 +11,7 @@
 
 + Lab selection
 + Cloning scheme design
-+ Ordering of the compounds, oligos, PCR primers, Twist fragments
++ Ordering of the compounds, oligos, PCR primers and other DNA fragments
 
 ## May
 
@@ -31,14 +31,14 @@
 
 ## July
 
-+ Introducing deletion into Marionette-Clo _E. Coli_ strain to obtain SEM6 _E.Coli_, a strain that will be used for further transformations in course of the project
++ Deletion of the csg operon in Marionette-Clo _E. Coli_ strain to obtain SEM6 _E.Coli_, a strain that will be used for further transformations in course of the project
 + Fluorescence based efficiency assay (GFP-mScarlet inversion) to determine the initial efficiency of bridge recombinases towards selected target and donor sequences 
 
 ## August
 
 + DML variant preparation
 + Illumina sequencing
-+ 
++ Preliminary design of the selection plasmid antibiotic-based functionality assay 
 
 ## September
 

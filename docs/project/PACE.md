@@ -1,5 +1,5 @@
 # PACE
-## System for phage-assisted evolution of bridge recombinases
+## Introduction & Results
 
 Here we outline the rationale, design and preliminary testing of a insertion based phage-assisted continuous evolutions (PACE) [^PACE] logic for evolving bridge recombinases on the example of the ISCro4 bridge recombinase. 
 
@@ -43,6 +43,12 @@ Having established activity and a transcriptional readout, we next asked whether
 <b>C</b> Validation: Junction PCR detects the expected donor–target product, confirming recombination despite the lack of phage amplification.
 </figcaption>
 </figure>
+
+##Conclusion
+
+Although we confirmed that ISCro4 is active in \textit{E. coli} and that correct insertion drives strong gIII transcription, we saw no titer increase under initial conditions, despite junction-PCR confirming recombination. Two factors likely explain this: (i) host burden from AP+CP plus ISCro4 expression and the recombination process itself, which can slow growth, impair F-pilus biogenesis, and limit phage production/release; and (ii) kinetics: the rates of recombination of WT ISCro4 and subsequent pIII accumulation may be too slow to support measurable propagation.
+
+To overcome these barriers, we will begin with neutral drift of the selection phage and phage-assisted non-continuous evolution (PANCE) under permissive conditions to accumulate diversity. Once amplification is detectable, we will incrementally raise stringency and transition toward continuous selection. Addionally DML can be employed to select a higher efficiency starting variant to be used in combination with the PACE logic.
 
 [^PACE]: Miller SM, Wang T, Liu DR. Phage-assisted continuous and non-continuous evolution. Nature Protocols. 2020;15(12):4101–4127. doi:10.1038/s41596-020-00410-3.
 [^Perry2025BridgeRecombinases]: Perry NT, Bartie LJ, Katrekar D, Gonzalez GA, Durrant MG, Pai JJ, Fanton A, Martins JQ, Hiraizumi M, Ricci-Tam C, Nishimasu H, Konermann S, Hsu PD. Megabase-scale human genome rearrangement with programmable bridge recombinases. Science. 2025;:eadz0276. doi:10.1126/science.adz0276. PMID:40997214. Online ahead of print, 2025 Sep 25.
