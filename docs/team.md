@@ -14,7 +14,7 @@ hide:
     <span> Annabelle Winzer <br>
       Master's student, ETH Zürich
       <br>
-       The lab-manager, assay developer, does not believe in being sick for over a week </span>
+       The lab-manager, assay developer, does not believe in being sick for over a week. Still thinks that Size Matters would have been a better title for our project. </span>
   </div>
 
 
