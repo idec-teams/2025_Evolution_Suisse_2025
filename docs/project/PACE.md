@@ -2,7 +2,7 @@
 ## System for phage-assisted evolution of bridge recombinases
 ### System for phage-assisted evolution of bridge recombinases
 
-![](Figures/PACE_evolution_logic.jpg)
+![](../img/PACE_evolution_logic.jpg)
 
 *Overview of phage-assisted continuous evolution (PACE) for bridge recombinase ISCro4:* 
 Selection phage (SP) carries the evolving ISCro4 recombinase but lacks *gIII*, which encodes the essential coat protein pIII. The host *E. coli* harbours three plasmids: (i) an accessory plasmid (AP) containing the target site plus *gIII* and a luciferase reporter that are promoterless; (ii) a complementary plasmid (CP) expressing the bRNA and donor sequence under an upstream promoter; and (iii) a mutagenesis plasmid (MP) [^PACE]. Upon successful insertion, the CP promoter is positioned immediately upstream of *gIII* (and luciferase), which drives pIII expression and enables replication of SPs encoding active recombinase variants. PACE is conducted in a fixed-volume “lagoon” with continuous dilution by fresh host cells, so only SPs that replicate faster than the dilution rate persist and evolve; ongoing mutation from the MP diversifies progeny for subsequent rounds of selection.
@@ -13,7 +13,7 @@ Here we outline the rationale, design and preliminary testing of a insertion bas
 
 The selection logic leverages the essential phage gene *gIII*, which encodes the coat protein pIII required for infectivity and replication. In our system (see Figure~\ref{fig:PACE_evolution_logic}A), the selection phage (SP) carries the evolving ISCro4 recombinase but does not contain *gIII*; as a consequence, SPs cannot replicate unless *gIII* is provided in trans by the host. To couple *gIII* expression tightly to successful recombination, the accessory plasmid (AP) carried by the host encodes *gIII* (and a luciferase reporter) without a promoter, and places the appropriate recombination target sequence upstream of these genes. A separate complementary plasmid (CP) encodes the bRNA and the donor sequence, and includes a promoter upstream of the donor. The intended recombination event moves that promoter into the correct position in front of *gIII* (and luciferase, when present). Thus, without recombination, there is no *gIII* expression and the SP cannot propagate; with successful recombination, the promoter is repositioned to drive pIII production, enabling replication of SPs that encode functional (and ideally improved) ISCro4 variants. In continuous culture, this design should favour variants that recombine efficiently at the programmed site, because only those variants gain access to pIII and can outcompete the dilution imposed by the lagoon flow.
 
-![](Figures/PACE_activity_assay.jpg)
+![](../img/PACE_activity_assay.jpg)
 
 *sfGFP activity assay for ISCro4 in* *E. coli*.  
 **A** Schematic of sfGPF activity assay. A low-copy plasmid carries sfGFP with its target site upstream and no promoter (AP-analog). The high-copy CP encodes the bRNA and a promoter–donor cassette. ISCro4 is expressed from an arabinose-inducible plasmid. Recombination repositions the CP promoter directly upstream of sfGFP, leading to sfGFP expression.  
@@ -23,7 +23,7 @@ With this setup, we observed that wild-type ISCro4 catalyses insertion in *E. co
 
 To quantify the transcriptional gain produced by promoter repositioning and to validate that the post-recombination state strongly expresses *gIII*, we designed a mock-integrated plasmid that mimics the recombination product: the promoter is pre-installed upstream of *gIII*. On the same transcript downstream of *gIII*, a luciferase is expressed to enable a luminescent readout proportional to transcription through the *gIII*–lux cassette. When comparing strains carrying the pre-recombination configuration versus the mock-integrated (post-recombination) construct, we observed a \textasciitilde 10,000-fold (four-orders-of-magnitude) increase in luminescence for the mock-integrated state (Figure~\ref{fig:PACE_Luminescence_assay}), indicating a working transcription unit upon site-specific insertion.
 
-![](Figures/PACE_luminesence_assay.jpg)
+![](../img/PACE_luminesence_assay.jpg)
 
 *Validation of promoter repositioning:*  
 The mock inserted plasmid mimics the post-recombination product which leads to constitutive *gIII* expression. Additionally, a luciferase gene placed downstream on the same transcript provides a luminescent readout proportional to transcription to *gIII*   Comparing the pre-recombination state and the mock inserted states reveals a \(\sim10^{4}\)-fold luminescence increase in the mock-integrated condition, confirming strong *gIII* transcription upon promoter repositioning in *E.\ coli* after 16-18 hours incubation at 37°C.
