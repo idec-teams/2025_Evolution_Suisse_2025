@@ -149,7 +149,7 @@ transformed. The reduced number of genetic components should also decrease the m
 the system. Unfortunately, we have not been able to test our selection strategy with the EcoRep system within the time frame of our project. However, the selection logic is not directly linked to the method of gene diversification. Consequently, the system should work in combination
 with EcORep given that both systems have been shown to work independantly. The selection could also be employed in combination with any other DE method as long as selection takes place in vivo. Furthermore, the strategy requires only simple laboratory equipment.
     
-## Markdown footnotes for citations
+## References
 [^MutaT7]: A. A. Mengiste, J. L. McDonald, M. T. Nguyen Tran, et al., “MutaT7GDE: A Single Chimera for the
 Targeted, Balanced, Efficient, and Processive Installation of All Possible Transition Mutations In Vivo,”
 ACS Synthetic Biology, vol. 13, no. 9, pp. 2693–2701, Sep. 2024, Publisher: American Chemical Society.
