@@ -11,7 +11,7 @@
 
 + Lab selection
 + Cloning scheme design
-+ Ordering of the compounds, oligos, PCR primers, Twist fragments
++ Ordering of the compounds, oligos, PCR primers and other DNA fragments
 
 ## May
 
