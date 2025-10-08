@@ -48,7 +48,7 @@ hide:
     <span> Etienne Mathier <br>
       Master's student, ETH Zürich
       <br>
-       Can make strains and control liquid nitrogen (but can't win against Saskia in dance battle) </span>
+       Can make strains and is cooler than liquid nitrogen (but can't beat Saskia in dance battles). </span>
   </div>
 
   
@@ -111,8 +111,8 @@ hide:
       Associate Professor at the Department of Biosystems Science and Engineering </span>
   </div>
 </div>
- 
+
+---
 # Acknowledgements
 
-
-some text here 
+We want to express our sincere gratitude to all people who contributed to the successful execution of this project. We are thankful to Professor Professor Nash for hosting us in his lab and for facilitating access to the resources necessary for this research. Special thanks go to Lorenz Widmer for his invaluable feedback and guidance throughout the project. We are grateful to Philip Nitsch for his helping hand in the PACE project.

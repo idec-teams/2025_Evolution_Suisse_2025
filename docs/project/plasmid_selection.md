@@ -40,19 +40,23 @@ The screening plasmid expresses mGreenLantern under the control of a constitutiv
 
 After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cells, whereas, the non-targeted target-sequence showed < 1 % positive cells (Figure 2B), confirming target-specific inversion events. Similarly, we observed <1 % positive cells in the uninduced control in all conditions, except target 2 and 3, where we observed 2% positive cells at the 15 h time point. This is indicative of effective promoter repression in the absence of the inducer. Furthermore, we were only able to observe a change in fluorescent protein expression after 15 hours of induction, as there were <1 % mScarlet positive cells 2 hours after induction across all conditions. Lastly, flipping events were confirmed by Oxford Nanopore sequencing. Target 1 showed the highest activity and was selected as the primary target sequence from this point forward.
 
-![Flowcyto](../img/Flowcyto_data.png)Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
-type donor and the targets identified within the SERPINA1 locus.**A** Schematic representation of the plasmids
+<figure markdown>
+![Flowcyto](../img/Flowcyto_data.png)
+<figcaption> Figure 2: Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+type donor and the targets identified within the SERPINA1 locus. <strong>A</strong> Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
 and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
 are flanked by donor and target sequences to allow for IS621 + bRNA mediated flipping. pES055.2 contains
 IS621 followed by mTagBFP2 to facilitate the gating of cells bearing both plasmids. Induction with aTc leads
-to expression of the bRNA and therefore recombination. **B** Percentage of mScarlet3-positive cells over the
+to expression of the bRNA and therefore recombination. <strong>B</strong> Percentage of mScarlet3-positive cells over the
 number of cells expressing both IS621 recombinase and the fluorescent reporter plasmid. Marionette-Clo cells
 carrying plasmids pES049.2 and pES055.2 were either uninduced (blue) or induced (green) with 200 nM aTc
 for the indicated times before the analysis. Bars indicate mean values of three replicates, with individual data
 points shown. Each panel represents a different target sequence (1, 2 or 3). The non-targeting bRNA condition
 corresponds to cells carrying pES055.2 and pES049.2 bearing bRNA 1 and target sequence 2, serving as a
 negative control.
+</figcaption>
+</figure>
 
 
 ## Validation of the selection logic 
@@ -70,10 +74,11 @@ For each condition, controls in which bRNA expression was not induced were inclu
 Bacteria were grown for 15 hours after induction and then, those grown in absence of Kan were diluted into fresh media and grown for an additional 15 hours. This allowed for a longer induction period while minimizing cell death. 
 Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 3 D (i)).
 
+<figure markdown>
 ![Platingassay](../img/Plating_assay.png) 
-Figure 3: Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
-aTc. **A** Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
-aTc. **B</strong** Serial dilution droplet plating of the strain carrying
+<figcaption> Figure 3: Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
+aTc. <strong>A</strong> Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
+aTc. <strong>B</strong> Serial dilution droplet plating of the strain carrying
 pES055.2 and pES013.2A (see Figure 2) after 15 h growth in absence of Gm on Gm/Spec plates. **C** Schematic
 representation of the induction and growth conditions of bacteria containing the selection plasmid and constitu-
 tively expressing IS621. The cells were induced with aTc at an OD<sub>600</sub>O=0.6=0.6 either in the absence or presence of
@@ -84,6 +89,8 @@ negative controls, sample and control indicated with coloured asterics (No selec
 (cyan), with Kan in liquid culture (red)). Cultures grown with Kan were terminated after 15 h, (iii) induced
 samples grown in abscence of Kan for 30 h plated as droplets in duplicate. Black markings on plates indicate
 the position of bacterial droplet when plated.
+</figcaption>
+</figure>
 
 
 
@@ -92,27 +99,30 @@ Two escape mutations were identified: large deletions as well as insertions of g
 Upon deletion KanR gene was placed under the control of the pTet promoter, which otherwise controls bRNA A expression, enabling cell surivival without inversion of the cassette (Figure 5 A). 
 The second escape mutation we observed was a partial insertion of the transposable element IS150 from IS3 family [^trasposon]. This fragment contains a promoter which leads to the expression of KanR and cell survival (Figure 5 B).
 
+<figure markdown>
 ![escapemut](../img/EscapeMutants.jpg) 
-Figure 4: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
-control of only one promoter. Gene deletion **(A)**, off-target recombination or insertion of an exogenous gene
-sequence **(B)** may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
+<figcaption> Figure 4: Schematic of escape mutants. In the unmodified selection plasmid, the resistance cassette is under the
+control of only one promoter. Gene deletion <strong>A</strong>, off-target recombination or insertion of an exogenous gene
+sequence <strong>B</strong> may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
 formation of escape mutants. Escape mutants express GmR and KanR simultaneously and thus no longer need
 to flip the cassette for survival during selection. During our selection experiments we found two escape mutants.
 One showed a large deletion. Both bRNAs where absent from the plasmid and the KanR gene was under the
 control of the PTet promoter. The the other escape mutants carried a fragment of IS150. The IS150 fragment
 contains an additional promoter and supports KanR expression.
-
-
+</figcaption>
+</figure>
 
 These escape mutations represent a limit for the applicability of our system, as they allow cells to grow without the need for IS621-catalysed recombination.
 To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. Escape mutants as shown if Figure 4 appear when a promoter is re-localized and the simultaneous transcription of GmR and KanR are enabled. This renders inversion of the AB cassette unnecessary. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in Figure 5 should greatly reduce the number of escape mutants. The toxin CcdB inhibits DNA gyrase, an essential enzyme that can introduce negative supercoils in the DNA during replication. Loss of gyrase activity results in cell death. The antitoxin CcdA binds CcdB and neutralizes the toxic effects. [^CcdA-CcdB] In our proposed system, both CcdA and CcdB are constitutively expressed. CcdA is located downstream of the AB cassette. Transcription of CcdA is initiated form one of two promoters within the AB cassette, depending on the orientation of the cassette. Insertion, deletion or off target recombination events that can lead to the formation of escape mutants in the previous system (pES013.2). In the ajdusted system, such events should result in the loss of CcdA transcription, which leads to cell death. 
 
-
+<figure markdown>
 ![escapemutsolution](../img/EscapeMutants_Solution.jpg) 
-Figure 5: Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
-of possible escape mutants. **A** Native configuration of the selection plasmid with the integrated CcdA/CcDB
-toxin/antitoxin system. Expression of CcdA suppresses CcdB toxicity. **B** Relocalization of the second promoter
+<figcaption> Figure 5: Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
+of possible escape mutants. <strong>A</strong> Native configuration of the selection plasmid with the integrated CcdA/CcDB
+toxin/antitoxin system. Expression of CcdA suppresses CcdB toxicity. <strong>B</strong> Relocalization of the second promoter
 downstream of the cassette leads to loss of CcdA expression and cell death.
+</figcaption>
+</figure>
 
 As a next step we aim to demonstrate inversion in the reverse direction (Kan --> Gm) following induction of
 the bRNA. Successful implementation of this step would enable continuous directed evolution. This could involve growing the bacteria in a continuous culture where the media is exchanged slowly overtime to contain different concentrations of the inducers and antibiotics used for selection. Alternately, non-continuous cultures can be used where the bacteria are subjected to iterative cycles of induction and selection.

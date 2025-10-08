@@ -22,7 +22,7 @@ induction of the fliptase. The amplicon size for the csg primer pair in Marionet
 well with lane C1. Validating that the primers work. The amplicon size for Marionette-Clo with the integrated
 dsDNA substrate is 1.5 kb. This is seen in C2, thus confirming the successful integration of the dsDNA substrate. After the resistance cassette is flipped out, the amplicon is expected to be roughly 400 bp. This can be observed in S1-S6. Meaning that the deletion has successfully worked.
 
-## Genomeseq
+## Genome sequencing
 
 Finally to validate that the strain is correct and that no off target mutations have been introduced, the strain was sent for whole genome sequencing. The results can be found here: [sEM6 Genomeseq](https://idec-teams.github.io/2025_Evolution_Suisse_2025/project/genome-seq/). 
 
