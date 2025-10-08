@@ -114,9 +114,9 @@ downstream of the cassette leads to loss of CcdA expression and cell death.
 As a next step we aim to demonstrate inversion in the reverse direction (Kan --> Gm) following induction of
 the bRNA. Successful implementation of this step would enable continuous directed evolution. This could involve growing the bacteria in a continuous culture where the media is exchanged slowly overtime to contain different concentrations of the inducers and antibiotics used for selection. Alternately, non-continuous cultures can be used where the bacteria are subjected to iterative cycles of induction and selection.
 
-## Directed Evolution of IS621 using EcORep - citations are missing + add pics of the plasmid schemes from supplementary  
+## Directed Evolution of IS621 using EcORep
 We attempted to apply our evolutionary logic in combination with EcoRep. This system allows for an orthog-
-onally increased mutation rate on the target gene in vivo [cite ].
+onally increased mutation rate on the target gene in vivo [^EcORep].
 Since we were unable to obtain the EcORep strain, we set out to engineer an adapted version of EcORep. Our
 goal was to create a system that carries all the genes necessary for stable replication of the O-Replicon on a single
 plasmid. The original system works as follows: A synthetic replication operon containing the PRD1 genes TP
@@ -129,15 +129,11 @@ gRNA targeted to the IPTG promoter. An additional plasmid expressing the PRD1 ge
 version of DNAP (N71D), is expressed from another plasmid (pRT4-2). In our simplified design (pES084.2,
 17), all genes necessary necessary for replication of the O-Replicon are carried on a low copy plasmid with the
 p15A ori. The TP and mutagenic DNAP-N71D are under the control of the PCymRC promoter optimized by
-Meyer et al.[31] This inducible promoter shows a great dynamic range and low leakiness. Expression in the
+Meyer et al.[^Marionette] This inducible promoter shows a great dynamic range and low leakiness. Expression in the
 induced state is 870 fold higher. Furthermore, we tried to optimize the expression levels of SSB, DSB, and
 Gam by creating a promoter and RBS library for each of the genes. This plasmid-borne system can easily be
 transformed. The reduced number of genetic components should also decrease the metabolic burden of carrying
-the system.
-
-### somewhere refer to figure 1 for the plasmids designed for ecorep
-
-Unfortunately, we have not been able to test our selection strategy with the EcoRep system within the time frame of our project. However, the selection logic is not directly linked to the method of gene diversification. Consequently, the system should work in combination
+the system. Unfortunately, we have not been able to test our selection strategy with the EcoRep system within the time frame of our project. However, the selection logic is not directly linked to the method of gene diversification. Consequently, the system should work in combination
 with EcORep given that both systems have been shown to work independantly. The selection could also be employed in combination with any other DE method as long as selection takes place in vivo. Furthermore, the strategy requires only simple laboratory equipment.
     
 ## Markdown footnotes for citations
@@ -168,6 +164,3 @@ intermediates,” Journal of Bacteriology, vol. 184, no. 21, pp. 5833–5841, 20
 Disordered Protein Domain,” English, Molecular Cell, vol. 35, no. 2, pp. 154–163, Jul. 2009, Publisher:
 Elsevier, issn: 1097-2765. doi: 10.1016/j.molcel.2009.05.025. (visited on 10/08/2025).
 
-## Add images:
-
-![dummy image](img/dummy.png){ width=800px }
