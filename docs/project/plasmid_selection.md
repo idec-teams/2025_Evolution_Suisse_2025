@@ -164,7 +164,7 @@ s41586-024-07552-4.
 [^trasposon]:M. Haas and B. Rak, “Escherichia coli insertion sequence is150: Transposition via circular and linear
 intermediates,” Journal of Bacteriology, vol. 184, no. 21, pp. 5833–5841, 2002. doi: 10.1128/JB.184.
 21.5833-5841.2002
-[^CcdA-CcdB]N. D. Jonge, A. Garcia-Pino, L. Buts, et al., “Rejuvenation of CcdB-Poisoned Gyrase by an Intrinsically
+[^CcdA-CcdB]: N. D. Jonge, A. Garcia-Pino, L. Buts, et al., “Rejuvenation of CcdB-Poisoned Gyrase by an Intrinsically
 Disordered Protein Domain,” English, Molecular Cell, vol. 35, no. 2, pp. 154–163, Jul. 2009, Publisher:
 Elsevier, issn: 1097-2765. doi: 10.1016/j.molcel.2009.05.025. (visited on 10/08/2025).
 
