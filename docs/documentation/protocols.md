@@ -64,8 +64,8 @@ The composition of the reactions varied depending on the complexity of the react
 ## Gibson Assembly
 When the plasmid deaign did not allow for Golden Gate assembly, Gibson assembly was performed according to the following protocol:
 
-1. Desired plasmid digestion with a restriction enzyme of choice 
-2. Gel purification and extraction of the correct PCR products (1-2% Agarose gel, PCR Clean-up kit obtained from Zymo research)
-3. 50–100 ng of purified vector DNA with a 2:1 molar ratio of each insert to backbone ligated with T4 DNA Ligase (New England Biolabs)
-6. Samples incubation in a thermocycler (30ºC - 16ºC cycle to improve ligation eficiency)
+1. Desired plasmid digestion with a restriction enzyme of choice.
+2. Gel purification and extraction of the correct PCR products (1-2% Agarose gel, PCR Clean-up kit obtained from Zymo research).
+3. 50–100 ng of purified vector DNA with a 2:1 molar ratio of each insert to backbone ligated with T4 DNA Ligase (New England Biolabs).
+6. Samples incubation in a thermocycler (30ºC - 16ºC cycle to improve ligation eficiency).
 
