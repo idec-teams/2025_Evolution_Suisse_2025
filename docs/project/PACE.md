@@ -2,8 +2,8 @@
 ## System for phage-assisted evolution of bridge recombinases
 <figure markdown>
 ![](../img/PACE_evolution_logic.jpg)
-<figcaption> Figure 1: **Overview of phage-assisted continuous evolution (PACE) for bridge recombinase ISCro4:**
-Selection phage (SP) carries the evolving ISCro4 recombinase but lacks *gIII*, which encodes the essential coat protein pIII. The host *E. coli* harbours three plasmids: (i) an accessory plasmid (AP) containing the target site plus *gIII* and a luciferase reporter that are promoterless; (ii) a complementary plasmid (CP) expressing the bRNA and donor sequence under an upstream promoter; and (iii) a mutagenesis plasmid (MP) [^PACE]. Upon successful insertion, the CP promoter is positioned immediately upstream of *gIII* (and luciferase), which drives pIII expression and enables replication of SPs encoding active recombinase variants. PACE is conducted in a fixed-volume “lagoon” with continuous dilution by fresh host cells, so only SPs that replicate faster than the dilution rate persist and evolve; ongoing mutation from the MP diversifies progeny for subsequent rounds of selection.
+<figcaption style="font-style: normal;"> <i> <b>Figure 1: Overview of phage-assisted continuous evolution (PACE) for bridge recombinase ISCro4:</b>
+Selection phage (SP) carries the evolving ISCro4 recombinase but lacks </i> gIII <i>, which encodes the essential coat protein pIII. The host </i> E. coli <i> harbours three plasmids: (i) an accessory plasmid (AP) containing the target site plus </i> gIII <i> and a luciferase reporter that are promoterless; (ii) a complementary plasmid (CP) expressing the bRNA and donor sequence under an upstream promoter; and (iii) a mutagenesis plasmid (MP). Upon successful insertion, the CP promoter is positioned immediately upstream of </i> gIII <i> (and luciferase), which drives pIII expression and enables replication of SPs encoding active recombinase variants. PACE is conducted in a fixed-volume “lagoon” with continuous dilution by fresh host cells, so only SPs that replicate faster than the dilution rate persist and evolve; ongoing mutation from the MP diversifies progeny for subsequent rounds of selection. </i> 
 </figcaption>
 </figure>
 
@@ -15,9 +15,9 @@ The selection logic leverages the essential phage gene *gIII*, which encodes the
 
 <figure markdown>
 ![](../img/PACE_activity_assay.jpg)
-<figcaption> Figure 2: **sfGFP activity assay for ISCro4 in* *E. coli*.**  
-**A** Schematic of sfGPF activity assay. A low-copy plasmid carries sfGFP with its target site upstream and no promoter (AP-analog). The high-copy CP encodes the bRNA and a promoter–donor cassette. ISCro4 is expressed from an arabinose-inducible plasmid. Recombination repositions the CP promoter directly upstream of sfGFP, leading to sfGFP expression.  
-**B** Flow-cytometry readout after \textasciitilde 20 h post arabinose induction at 37°C showing \%GFP-positive cells.
+<figcaption style="font-style: normal;"> <i> <b> Figure 2: sfGFP activity assay for ISCro4 in  </i> E. coli  <i>.</b>
+<b>A</b> Schematic of sfGPF activity assay. A low-copy plasmid carries sfGFP with its target site upstream and no promoter (AP-analog). The high-copy CP encodes the bRNA and a promoter–donor cassette. ISCro4 is expressed from an arabinose-inducible plasmid. Recombination repositions the CP promoter directly upstream of sfGFP, leading to sfGFP expression.  
+<b>B</b> Flow-cytometry readout after ~ 20 h post arabinose induction at 37°C showing \%GFP-positive cells. </i>
 </figcaption>
 </figure>
 
