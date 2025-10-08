@@ -6,13 +6,13 @@ recombinase is located on a different plasmid or orthogonal replicon. This syste
 
 <figure markdown>
 ![Color_coded_Whole_Cell_View](../img/Color_coded_Whole_Cell_View.jpeg) 
- <figcaption> Figure 1: DE of IS621 using EcORep. **A** depicts the mutagenesis plasmid, the O-Replicon and the selection
-plasmid in an *E. coli* cell. The mutagenesis plasmid carries the genes necessary for replicating the O-Replicon.
+ <figcaption> Figure 1: DE of IS621 using EcORep. <strong>A</strong> depicts the mutagenesis plasmid, the O-Replicon and the selection
+plasmid in an <em>E. coli</em> cell. The mutagenesis plasmid carries the genes necessary for replicating the O-Replicon.
 The O-Replicon carries IS621 under the control of the inducible PVanCC promoter. The selection plasmid
 contains a casette with two antibiotic resistances, Gm resistance (GmR) and Kan resistance (KanR) facing in
 opposite directions. Depending on the orientation of the cassette, either GmR or KanR is transcribed. The
 cassette is flanked by donor and target sequences facing each other. This allows for IS621 + bRNA mediated
-inversion. **B** depicts the selection process. Cells are grown in LB liquid culture. IS621 expression is induced
+inversion. <strong>B</strong> depicts the selection process. Cells are grown in LB liquid culture. IS621 expression is induced
 using vanillic acid (Van). Shortly before stationary phase, bRNA expression is induced by addition of aTc for
 bRNA A or OHC14 for bRNA B. Presence of IS621 + bRNA promotes recombination. Selection is performed
 by regrowing cells in media containing Kan or Gm. Cells that have successfully recombined express the correct
