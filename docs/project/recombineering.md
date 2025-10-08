@@ -13,14 +13,15 @@ The strain was generated using lambda red recombineering using pSIJ8 [^jensen_1]
 
 <figure markdown>
 ![DML Overview](../img/cPCR.png)
-<figcaption> 1% agarose gel of a colony PCR done with the csg primers (see Table2). S1-S6 as described in
+<figcaption> 
+</figcaption>
+</figure>
+
+1% agarose gel of a colony PCR done with the csg primers (see Table2). S1-S6 as described in
 methods. Lanes L are ladders made with NEB 1kb plus. C1 is Marionette-Clo. C2 is a sample before the
 induction of the fliptase. The amplicon size for the csg primer pair in Marionette-Clo is 4.8 kb. This matches
 well with lane C1. Validating that the primers work. The amplicon size for Marionette-Clo with the integrated
 dsDNA substrate is 1.5 kb. This is seen in C2, thus confirming the successful integration of the dsDNA substrate. After the resistance cassette is flipped out, the amplicon is expected to be roughly 400 bp. This can be observed in S1-S6. Meaning that the deletion has successfully worked.
-</figcaption>
-</figure>
-
 
 ## Genomeseq
 
