@@ -34,6 +34,15 @@ The mock inserted plasmid mimics the post-recombination product which leads to c
 
 Having established activity and a transcriptional readout, we next asked whether the full selection logic supports phage propagation. We infected *E. coli* carrying the AP and CP with the ISCro4 selection phage (SP–ISCro4) and incubated cultures overnight (Figure~\ref{fig:PACE_phage_propagation_assay}A). As an initial test, we used WT ISCro4 with its cognate bRNA and quantified titres the following day. Under these conditions, no significant titre increase was observed relative to input phage titre and negative controls (non-targeting bRNA). Nonetheless, junction-specific PCR spanning the donor–target recombination site yielded the expected product, confirming that recombination occurred despite the lack of phage amplification.
 
+<figure markdown>
+![](../img/PACE_PP_assay.jpg)
+<figcaption> Figure 3: **Overnight phage propagation assay with WT ISCro4:**  
+**A** Setup: SP–ISCro4 (no *gIII*) infects hosts bearing AP (promoterless *gIII* + target) and CP (bRNA + promoter–donor); recombination should reposition the promoter to drive *gIII*.  
+**B** Result: After overnight infection with SP–ISCro4, phage titers show no significant increase versus input phage titer and non-targeting bRNA negative controls; likewise for the unspecific selection phage expressing rpoZ. Positive control showes that SP–ISCro4 is capable of propagation when supplied with pIII in trans.  
+**C** Validation: Junction PCR detects the expected donor–target product, confirming recombination despite the lack of phage amplification.
+</figcaption>
+</figure>
+
 [^PACE]: Miller SM, Wang T, Liu DR. Phage-assisted continuous and non-continuous evolution. Nature Protocols. 2020;15(12):4101–4127. doi:10.1038/s41596-020-00410-3.
 [^Perry2025BridgeRecombinases]: Perry NT, Bartie LJ, Katrekar D, Gonzalez GA, Durrant MG, Pai JJ, Fanton A, Martins JQ, Hiraizumi M, Ricci-Tam C, Nishimasu H, Konermann S, Hsu PD. Megabase-scale human genome rearrangement with programmable bridge recombinases. Science. 2025;:eadz0276. doi:10.1126/science.adz0276. PMID:40997214. Online ahead of print, 2025 Sep 25.
 
