@@ -115,6 +115,15 @@ hide:
       Associate Professor at the Department of Biosystems Science and Engineering </span>
   </div>
 
+  <div class="image-grid">
+  <div class="image-item">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/placeholder.jfif" alt="girls" style="height:300px;width:300px">
+    <span> Girl's trip to Ilmac Basel <br>
+      
+      <br>
+       just checking if this is why the lines don't work </span>
+  </div>
+
   
   
 
