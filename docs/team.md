@@ -47,7 +47,7 @@ hide:
   </div>
 
   <div class="image-item">
-    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/nitroetienne.jpeg" alt="Etienne" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/etienne.jfif" alt="Etienne" style="height:300px;width:300px">
     <span> Etienne Mathier <br>
       Master's student, ETH Zürich
       <br>
@@ -56,7 +56,7 @@ hide:
 
   
   <div class="image-item">
-    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/placeholder.jfif" alt="Sofia" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/sofia.jfif" alt="Sofia" style="height:300px;width:300px">
     <span> Sofia Filippini <br>
       Master's student, ETH Zürich
       <br>
@@ -70,7 +70,7 @@ hide:
   
 
   <div class="image-item">
-    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/placeholder.jfif" alt="Saskia" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/saskia.jfif" alt="Saskia" style="height:300px;width:300px">
     <span> Saskia Gerecke <br>
       Master's student, UZH
       <br>
@@ -80,7 +80,7 @@ hide:
 
 
   <div class="image-item">
-    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/placeholder.jfif" alt="David" style="height:300px;width:300px">
+    <img src="https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/david.jfif" alt="David" style="height:300px;width:300px">
     <span> David Jewanski <br>
       Master's student, ETH Zürich
       <br>
