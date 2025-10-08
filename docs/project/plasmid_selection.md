@@ -143,7 +143,7 @@ Gam by creating a promoter and RBS library for each of the genes. This plasmid-b
 transformed. The reduced number of genetic components should also decrease the metabolic burden of carrying
 the system.
 
-#### add figures - schemes of the plasmids from supplementary mat of the report 
+### somewhere refer to figure 1 for the plasmids designed for ecorep
 
 Unfortunately, we have not been able to test our selection strategy with the EcoRep system within the time frame of our project. However, the selection logic is not directly linked to the method of gene diversification. Consequently, the system should work in combination
 with EcORep given that both systems have been shown to work independantly. The selection could also be employed in combination with any other DE method as long as selection takes place in vivo. Furthermore, the strategy requires only simple laboratory equipment.
