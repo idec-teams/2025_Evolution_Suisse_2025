@@ -40,7 +40,7 @@ After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cel
 
 <p align="center">
   <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Flowcyto_data.png" alt="Flowcyto">
-</p>>
+</p> 
 <strong>Figure 2:</strong> <em>Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
 type donor and the targets identified within the SERPINA1 locus.</em> <strong>A</strong> Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
@@ -54,7 +54,7 @@ for the indicated times before the analysis. Bars indicate mean values of three 
 points shown. Each panel represents a different target sequence (1, 2 or 3). The non-targeting bRNA condition
 corresponds to cells carrying pES055.2 and pES049.2 bearing bRNA 1 and target sequence 2, serving as a
 negative control. 
-</p>
+
 
 ## Validation of the selection logic 
 To identify optimal induction and selection conditions for detecting IS621-mediated inversions, we screened
@@ -72,8 +72,8 @@ Bacteria were grown for 15 hours after induction and then, those grown in absenc
 Notably, some bacterial colonies were already able to grow on Kan plates before induction (t=0), indicating a low level of pre-existing resistance in the native population (Figure 3 D (i)).
 
 <p align="center">
-  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="Flowcyto">
-</p>>
+  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Plating_assay.png" alt="Plating">
+</p>
 <strong>Figure 3:</strong> <em>Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc.</em> <strong>A</strong> Phenotypic selection for successful inversion by IS621 following induction of bRNA expression with
 aTc. <strong>B</strong> Serial dilution droplet plating of the strain carrying
@@ -87,7 +87,7 @@ negative controls, sample and control indicated with coloured asterics (No selec
 (cyan), with Kan in liquid culture (red)). Cultures grown with Kan were terminated after 15 h, (iii) induced
 samples grown in abscence of Kan for 30 h plated as droplets in duplicate. Black markings on plates indicate
 the position of bacterial droplet when plated.
-</p>
+
 
 Following this assay monoclonal cultures were grown and their DNA sequenced. While the sequencing data confirmed inversion of the AB cassette, it also detected escape mutations, in some of the colonies grown in the presence of Kan.
 Two escape mutations were identified: large deletions as well as insertions of genomic host DNA. 
@@ -96,7 +96,7 @@ The second escape mutation we observed was a partial insertion of the transposab
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5b1fa080-9f4d-4a72-bed3-0aadb15fff73" alt="EscapeMutants">
-</p>>
+</p> 
 <strong>Figure 4:</strong> <em>Schematic of escape mutants.</em> In the unmodified selection plasmid, the resistance cassette is under the
 control of only one promoter. Gene deletion <strong>(A)</strong>, off-target recombination or insertion of an exogenous gene
 sequence <strong>(B)</strong> may lead to re-localization of a second promoter downstream of the cassette. This can lead to the
@@ -105,19 +105,19 @@ to flip the cassette for survival during selection. During our selection experim
 One showed a large deletion. Both bRNAs where absent from the plasmid and the KanR gene was under the
 control of the PTet promoter. The the other escape mutants carried a fragment of IS150. The IS150 fragment
 contains an additional promoter and supports KanR expression.
-</p>
+
 
 These escape mutations represent a limit for the applicability of our system, as they allow cells to grow without the need for IS621-catalysed recombination.
 To counteract this, we have devised an experimental strategy which aims to reduce the number of possible escape mutations. The incorporation of CcdA/CcdB toxin/antitoxin system into the selection plasmid as shown in Figure 5 should greatly reduce the number of escape mutants. 
 ##### quick explanation of CcdA system by Elia (?) or cite smth
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c2c27f9d-9d59-4c66-b1a3-f6d503c3264d" alt="toxinsystem">
-</p>>
+</p> 
 <strong>Figure 5:</strong> <em>Introduction of the CcdA/CcdB toxin/antitoxin system in the selection plasmid to reduce the number
 of possible escape mutants.</em> <strong>A</strong> Native configuration of the selection plasmid with the integrated CcdA/CcDB
 toxin/antitoxin system. Expression of CcdA suppresses CcdB toxicity.<strong>B</strong>Relocalization of the second promoter
 downstream of the cassette leads to loss of CcdA expression and cell death.
-</p>
+
 
 As a next step we aim to demonstrate inversion in the reverse direction (Kan --> Gm) following induction of
 the bRNA. Successful implementation of this step would enable continuous directed evolution. This could involve growing the bacteria in a continuous culture where the media is exchanged slowly overtime to contain different concentrations of the inducers and antibiotics used for selection. Alternately, non-continuous cultures can be used where the bacteria are subjected to iterative cycles of induction and selection.
