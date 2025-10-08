@@ -46,7 +46,7 @@ The composition of the reactions varied depending on the complexity of the react
 | 10 µM Reverse Primer  | 1 µL |
 | DNA template  | 100 ng|
 | High-Fidelity DNA Polymerase  | 0.25 µL|
-| Nuclease-Free Water | fill up to 25 µL|
+| Nuclease-Free Water | fill up to 20 µL|
 
 | Step  | Nr. of Cycles | Temperature (ºC)|Time|
 | ------------- | ------------- |------------- |------------- |
@@ -56,7 +56,7 @@ The composition of the reactions varied depending on the complexity of the react
 | Extention  | 30 | 72 | 1 min/kb  |
 | Final extention  | 1 | 72 | 5 min  |
 
-3. DpnI Digest: add 0.5 μL of DpnI to 25 μL PCR reaction, incubation 15 min at 37°C (to remove the template DNA)
+2. DpnI Digest: 0.5 μL of DpnI for 20 μL PCR reaction, incubation for 15 min at 37°C
 
 
 
