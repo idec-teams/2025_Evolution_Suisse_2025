@@ -17,7 +17,7 @@ using vanillic acid (Van). Shortly before stationary phase, bRNA expression is i
 bRNA A or OHC14 for bRNA B. Presence of IS621 + bRNA promotes recombination. Selection is performed
 by regrowing cells in media containing Kan or Gm. Cells that have successfully recombined express the correct
 AB resistance and survive, cells that did not recombine die. This process promotes the survival of bacteria
-carrying more active IS621 variants.
+carrying more active IS621 variants. </figcaption>
 
 EcORep is a continuous DE method that allows DE of large DNA segments in *E. coli*. EcORep uses genes
 from PRD1 phage to replicate a linear orthogonal replicon (O-Replicon) with an increased mutation rate[^EcORep].
@@ -38,10 +38,9 @@ The screening plasmid expresses mGreenLantern under the control of a constitutiv
 
 After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-positive cells, whereas, the non-targeted target-sequence showed < 1 % positive cells (Figure 2B), confirming target-specific inversion events. Similarly, we observed <1 % positive cells in the uninduced control in all conditions, except target 2 and 3, where we observed 2% positive cells at the 15 h time point. This is indicative of effective promoter repression in the absence of the inducer. Furthermore, we were only able to observe a change in fluorescent protein expression after 15 hours of induction, as there were <1 % mScarlet positive cells 2 hours after induction across all conditions. Lastly, flipping events were confirmed by Oxford Nanopore sequencing. Target 1 showed the highest activity and was selected as the primary target sequence from this point forward.
 
-<p align="center">
-  <img src="https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Flowcyto_data.png" alt="Flowcyto">
-</p> 
-<strong>Figure 2:</strong> <em>Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
+
+![Flowcyto]([https://github.com/user-attachments/assets/4b06a5a7-0665-4d57-95cd-71e48d96d1e4](https://github.com/idec-teams/2025_Evolution_Suisse_2025/blob/main/docs/img/Flowcyto_data.png))
+<figcaption><strong>Figure 2:</strong> <em>Flow cytometry analysis and sequencing validation of IS621 recombination activity between the wild-
 type donor and the targets identified within the SERPINA1 locus.</em> <strong>A</strong> Schematic representation of the plasmids
 used in the flow cytometry analysis. pES049.2 contains the bRNA targeting the respective target sequence under the control of PTet promoter
 and the two fluorescent reporter genes, mGreenLantern and mScarlet3, facing in opposite directions. These
@@ -54,7 +53,7 @@ for the indicated times before the analysis. Bars indicate mean values of three 
 points shown. Each panel represents a different target sequence (1, 2 or 3). The non-targeting bRNA condition
 corresponds to cells carrying pES055.2 and pES049.2 bearing bRNA 1 and target sequence 2, serving as a
 negative control. 
-
+</figcaption>
 
 ## Validation of the selection logic 
 To identify optimal induction and selection conditions for detecting IS621-mediated inversions, we screened
