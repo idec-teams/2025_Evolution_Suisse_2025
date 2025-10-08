@@ -19,7 +19,7 @@ by regrowing cells in media containing Kan or Gm. Cells that have successfully r
 AB resistance and survive, cells that did not recombine die. This process promotes the survival of bacteria
 carrying more active IS621 variants.
 </figcaption>
- </figure>
+</figure>
  
 EcORep is a continuous DE method that allows DE of large DNA segments in *E. coli*. EcORep uses genes
 from PRD1 phage to replicate a linear orthogonal replicon (O-Replicon) with an increased mutation rate[^EcORep].
